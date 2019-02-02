@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C36E6A712205193B0093B332 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A702205193B0093B332 /* HomeScreen.swift */; };
+		C36E6A732205266D0093B332 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A722205266D0093B332 /* CustomTabBarController.swift */; };
+		C36E6A7522052B210093B332 /* TabBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A7422052B210093B332 /* TabBarExtension.swift */; };
+		C36E6A772205330B0093B332 /* CartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A762205330B0093B332 /* CartScreen.swift */; };
+		C36E6A79220533530093B332 /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A78220533530093B332 /* SettingScreen.swift */; };
 		C3A7CFCE2203DC4C00B58485 /* gradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7CFCD2203DC4C00B58485 /* gradientView.swift */; };
 		C3A7CFD02203ECC200B58485 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7CFCF2203ECC200B58485 /* TextFieldExtension.swift */; };
 		C3A7CFD22203F46800B58485 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7CFD12203F46800B58485 /* RegisterScreen.swift */; };
@@ -21,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C36E6A702205193B0093B332 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		C36E6A722205266D0093B332 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		C36E6A7422052B210093B332 /* TabBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExtension.swift; sourceTree = "<group>"; };
+		C36E6A762205330B0093B332 /* CartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartScreen.swift; sourceTree = "<group>"; };
+		C36E6A78220533530093B332 /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
 		C3A7CFCD2203DC4C00B58485 /* gradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientView.swift; sourceTree = "<group>"; };
 		C3A7CFCF2203ECC200B58485 /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
 		C3A7CFD12203F46800B58485 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
@@ -50,6 +60,7 @@
 		F4F09DAA1DAF669400026BB2 = {
 			isa = PBXGroup;
 			children = (
+				C36E6A702205193B0093B332 /* HomeScreen.swift */,
 				F4F09DB51DAF669400026BB2 /* QRCodeReader */,
 				F4F09DB41DAF669400026BB2 /* Products */,
 			);
@@ -68,12 +79,16 @@
 			children = (
 				F4F09DB61DAF669400026BB2 /* AppDelegate.swift */,
 				F4F09DBA1DAF669400026BB2 /* Main.storyboard */,
+				C36E6A722205266D0093B332 /* CustomTabBarController.swift */,
 				C3A7CFD12203F46800B58485 /* RegisterScreen.swift */,
 				C3A7CFCF2203ECC200B58485 /* TextFieldExtension.swift */,
+				C36E6A7422052B210093B332 /* TabBarExtension.swift */,
 				C3BACF9A2203CFCF00B6D586 /* LoginScreen.swift */,
 				C3A7CFD32203F4CC00B58485 /* Constants.swift */,
 				C3A7CFCD2203DC4C00B58485 /* gradientView.swift */,
 				F4F09DBD1DAF669400026BB2 /* Assets.xcassets */,
+				C36E6A762205330B0093B332 /* CartScreen.swift */,
+				C36E6A78220533530093B332 /* SettingScreen.swift */,
 				F4F09DBF1DAF669400026BB2 /* LaunchScreen.storyboard */,
 				F4F09DC21DAF669400026BB2 /* Info.plist */,
 				F4F09DC81DAF6A3800026BB2 /* QRCodeViewController.swift */,
@@ -158,10 +173,15 @@
 			files = (
 				F4F09DC91DAF6A3800026BB2 /* QRCodeViewController.swift in Sources */,
 				C3A7CFD42203F4CC00B58485 /* Constants.swift in Sources */,
+				C36E6A732205266D0093B332 /* CustomTabBarController.swift in Sources */,
+				C36E6A7522052B210093B332 /* TabBarExtension.swift in Sources */,
 				C3BACF9B2203CFCF00B6D586 /* LoginScreen.swift in Sources */,
 				C3A7CFCE2203DC4C00B58485 /* gradientView.swift in Sources */,
 				C3A7CFD22203F46800B58485 /* RegisterScreen.swift in Sources */,
+				C36E6A79220533530093B332 /* SettingScreen.swift in Sources */,
+				C36E6A712205193B0093B332 /* HomeScreen.swift in Sources */,
 				C3A7CFD02203ECC200B58485 /* TextFieldExtension.swift in Sources */,
+				C36E6A772205330B0093B332 /* CartScreen.swift in Sources */,
 				F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */,
 				F4F09DCB1DAF6A4F00026BB2 /* QRScannerController.swift in Sources */,
 			);
