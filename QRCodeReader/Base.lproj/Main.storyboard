@@ -34,6 +34,14 @@
                                     <segue destination="B0K-bi-dGX" kind="presentation" id="UT3-hf-w8E"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43N-2S-OfW">
+                                <rect key="frame" x="266" y="546" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="PRESS"/>
+                                <connections>
+                                    <segue destination="eLw-hk-TJm" kind="show" id="JeB-wd-vGx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -48,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="254" y="42"/>
+            <point key="canvasLocation" x="253.59999999999999" y="41.829085457271368"/>
         </scene>
         <!--Item-->
         <scene sceneID="6su-PY-OE1">
@@ -123,6 +131,21 @@
             </objects>
             <point key="canvasLocation" x="-266" y="931"/>
         </scene>
+        <!--Scanner View Controller-->
+        <scene sceneID="bV6-eo-uDO">
+            <objects>
+                <viewController id="eLw-hk-TJm" customClass="ScannerViewController" customModule="QRCodeReader" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xWb-aO-Mse">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aqd-vM-2RK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="22t-On-nBR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="621" y="926"/>
+        </scene>
         <!--Login Screen-->
         <scene sceneID="Rif-h3-mGc">
             <objects>
@@ -147,7 +170,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="NUF-kL-wrV" kind="show" id="Zx8-oT-oFH"/>
+                                    <segue destination="NUF-kL-wrV" kind="showDetail" id="s10-Pm-si7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPJ-jv-udE">
@@ -296,9 +319,6 @@
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.27793447457107845" green="0.71272786458333337" blue="0.54900492749183005" alpha="1" colorSpace="calibratedRGB"/>
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
-                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
                                 <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </userDefinedRuntimeAttribute>
@@ -322,7 +342,7 @@
         <!--Cart-->
         <scene sceneID="Odg-wg-aoj">
             <objects>
-                <viewController title="Cart" id="WZc-s0-reu" sceneMemberID="viewController">
+                <viewController title="Cart" id="WZc-s0-reu" customClass="CartScreen" customModule="QRCodeReader" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nfY-I0-LNO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -335,10 +355,10 @@
             </objects>
             <point key="canvasLocation" x="1156" y="42"/>
         </scene>
-        <!--View Controller-->
+        <!--Setting Screen-->
         <scene sceneID="bqb-WJ-G4B">
             <objects>
-                <viewController id="J8U-nI-JjA" sceneMemberID="viewController">
+                <viewController id="J8U-nI-JjA" customClass="SettingScreen" customModule="QRCodeReader" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oqA-aa-v3i">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

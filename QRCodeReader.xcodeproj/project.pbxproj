@@ -17,6 +17,7 @@
 		C3A7CFD22203F46800B58485 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7CFD12203F46800B58485 /* RegisterScreen.swift */; };
 		C3A7CFD42203F4CC00B58485 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7CFD32203F4CC00B58485 /* Constants.swift */; };
 		C3BACF9B2203CFCF00B6D586 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BACF9A2203CFCF00B6D586 /* LoginScreen.swift */; };
+		C3C9A0B122134D0500F6C989 /* BarCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9A0B022134D0500F6C989 /* BarCodeScanner.swift */; };
 		F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F09DB61DAF669400026BB2 /* AppDelegate.swift */; };
 		F4F09DBC1DAF669400026BB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F09DBA1DAF669400026BB2 /* Main.storyboard */; };
 		F4F09DBE1DAF669400026BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F09DBD1DAF669400026BB2 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		C3A7CFD12203F46800B58485 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		C3A7CFD32203F4CC00B58485 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C3BACF9A2203CFCF00B6D586 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		C3C9A0B022134D0500F6C989 /* BarCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScanner.swift; sourceTree = "<group>"; };
 		F4F09DB31DAF669400026BB2 /* QRCodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F09DB61DAF669400026BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4F09DBB1DAF669400026BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				F4F09DC21DAF669400026BB2 /* Info.plist */,
 				F4F09DC81DAF6A3800026BB2 /* QRCodeViewController.swift */,
 				F4F09DCA1DAF6A4F00026BB2 /* QRScannerController.swift */,
+				C3C9A0B022134D0500F6C989 /* BarCodeScanner.swift */,
 			);
 			path = QRCodeReader;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				C3A7CFD22203F46800B58485 /* RegisterScreen.swift in Sources */,
 				C36E6A79220533530093B332 /* SettingScreen.swift in Sources */,
 				C36E6A712205193B0093B332 /* HomeScreen.swift in Sources */,
+				C3C9A0B122134D0500F6C989 /* BarCodeScanner.swift in Sources */,
 				C3A7CFD02203ECC200B58485 /* TextFieldExtension.swift in Sources */,
 				C36E6A772205330B0093B332 /* CartScreen.swift in Sources */,
 				F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */,
