@@ -11,6 +11,7 @@ class QRCodeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.setGradientBackground(colorOne: Colors.lightGrey, colorTwo: Colors.green)
 
         // Do any additional setup after loading the view.
     }

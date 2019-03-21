@@ -34,7 +34,6 @@ class QRScannerController: UIViewController {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Get the back-facing camera for capturing videos
         let deviceDiscoverySession = AVCaptureDevice.DiscoverySession(deviceTypes: [.builtInDualCamera], mediaType: AVMediaType.video, position: .back)
         
