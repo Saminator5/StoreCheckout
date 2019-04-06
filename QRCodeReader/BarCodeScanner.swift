@@ -14,9 +14,11 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
     var captureSession: AVCaptureSession!
     var previewLayer: AVCaptureVideoPreviewLayer!
     
+    var productInfo: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         view.backgroundColor = UIColor.black
         captureSession = AVCaptureSession()
         
@@ -87,37 +89,46 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
             guard let stringValue = readableObject.stringValue else { return }
             AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
             found(code: stringValue)
+            performSegue(withIdentifier: "info", sender: self)
+
         }
         
         dismiss(animated: true)
     }
     
+    
     func found(code: String) {
         print(code)
         // api call
         let key = "2u1hergdpk4zr3bpk4rwdpc7gnindc"
-       let url = URL(string:"https://api.barcodelookup.com/v2/products?barcode=\(code)&key=\(key)")!
-       // let url = URL(string:"https://secure25.win.hostgator.com/searchupc_com/handlers/upcsearch.ashx?request_type=1&access_token=\(my_token)&upc=\(code)")!
-        
+        //let url = URL(string:"https://api.barcodelookup.com/v2/products?barcode=\(code)&key=\(key)")!
+        let url = URL(string:"https://jsonplaceholder.typicode.com/todos/1")!
+
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             if(error == nil) {
                 let returnedData = data!
                 print("returnedData: ", returnedData)
-                print("response: ", response)
-                
+
                 if let data = data, let stringResponse = String(data: data, encoding: .utf8) {
                     print("Response \(stringResponse)")
+                    self.productInfo = stringResponse
+                    
+                    //UIApplication.topViewController()?.present(ItemViewController(), animated: true, completion: nil)
+                 
                 }
             }
             else {
                 print(error)
             }
         }
-        
-        task.resume()
-        
-        
 
+        task.resume()
+
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+      var vc = segue.destination as! ItemViewController
+      vc.productInfo = self.productInfo
     }
     
     override var prefersStatusBarHidden: Bool {
