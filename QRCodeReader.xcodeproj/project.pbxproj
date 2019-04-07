@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C313CE2E225944D0008C4062 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313CE2D225944D0008C4062 /* Cart.swift */; };
+		C313CE30225964C8008C4062 /* backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313CE2F225964C8008C4062 /* backup.swift */; };
+		C313CE3222596707008C4062 /* JsonParseDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313CE3122596707008C4062 /* JsonParseDictionary.swift */; };
 		C36E6A732205266D0093B332 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A722205266D0093B332 /* CustomTabBarController.swift */; };
 		C36E6A7522052B210093B332 /* TabBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A7422052B210093B332 /* TabBarExtension.swift */; };
 		C36E6A772205330B0093B332 /* CartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A762205330B0093B332 /* CartScreen.swift */; };
@@ -31,6 +34,9 @@
 /* Begin PBXFileReference section */
 		3F2E549A267E6AA41B8B634A /* Pods-QRCodeReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeReader.debug.xcconfig"; path = "Target Support Files/Pods-QRCodeReader/Pods-QRCodeReader.debug.xcconfig"; sourceTree = "<group>"; };
 		6ACA83F7E45854CC7FBD6D90 /* Pods-QRCodeReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeReader.release.xcconfig"; path = "Target Support Files/Pods-QRCodeReader/Pods-QRCodeReader.release.xcconfig"; sourceTree = "<group>"; };
+		C313CE2D225944D0008C4062 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		C313CE2F225964C8008C4062 /* backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backup.swift; sourceTree = "<group>"; };
+		C313CE3122596707008C4062 /* JsonParseDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParseDictionary.swift; sourceTree = "<group>"; };
 		C36E6A722205266D0093B332 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		C36E6A7422052B210093B332 /* TabBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExtension.swift; sourceTree = "<group>"; };
 		C36E6A762205330B0093B332 /* CartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartScreen.swift; sourceTree = "<group>"; };
@@ -80,7 +86,6 @@
 				3F2E549A267E6AA41B8B634A /* Pods-QRCodeReader.debug.xcconfig */,
 				6ACA83F7E45854CC7FBD6D90 /* Pods-QRCodeReader.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -115,6 +120,7 @@
 				C36E6A7422052B210093B332 /* TabBarExtension.swift */,
 				C3BACF9A2203CFCF00B6D586 /* LoginScreen.swift */,
 				C3A7CFD32203F4CC00B58485 /* Constants.swift */,
+				C313CE3122596707008C4062 /* JsonParseDictionary.swift */,
 				C3A7CFCD2203DC4C00B58485 /* gradientView.swift */,
 				F4F09DBD1DAF669400026BB2 /* Assets.xcassets */,
 				C36E6A762205330B0093B332 /* CartScreen.swift */,
@@ -124,6 +130,8 @@
 				F4F09DC81DAF6A3800026BB2 /* QRCodeViewController.swift */,
 				F4F09DCA1DAF6A4F00026BB2 /* QRScannerController.swift */,
 				C3C9A0B022134D0500F6C989 /* BarCodeScanner.swift */,
+				C313CE2F225964C8008C4062 /* backup.swift */,
+				C313CE2D225944D0008C4062 /* Cart.swift */,
 			);
 			path = QRCodeReader;
 			sourceTree = "<group>";
@@ -266,6 +274,9 @@
 				C36E6A772205330B0093B332 /* CartScreen.swift in Sources */,
 				F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */,
 				F4F09DCB1DAF6A4F00026BB2 /* QRScannerController.swift in Sources */,
+				C313CE3222596707008C4062 /* JsonParseDictionary.swift in Sources */,
+				C313CE2E225944D0008C4062 /* Cart.swift in Sources */,
+				C313CE30225964C8008C4062 /* backup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
