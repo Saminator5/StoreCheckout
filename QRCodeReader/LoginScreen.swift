@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 import AVFoundation
+import FirebaseAuth
+
 class LoginScreen: UIViewController {
     
     @IBOutlet weak var gradientView: UIView!
@@ -18,7 +20,6 @@ class LoginScreen: UIViewController {
     @IBOutlet weak var logInButton: UIButton!
     
     @IBOutlet weak var email: UITextField!
-    
     @IBOutlet weak var password: UITextField!
 
     
@@ -60,5 +61,55 @@ class LoginScreen: UIViewController {
         
         
     }
+    
+    /**
+     Returns an error message or nil if there is no validation error
+     */
+    func validate() -> String? {
+        
+        if let email = email.text {
+            if email.contains("@") == false {
+                return "Invalid email format."
+            }
+        } else {
+            return "Please enter your email."
+        }
+        
+        // TODO: add some more validation rules
+        
+        return nil
+    }
+    
+    @IBAction func loginTapped(_ sender: Any) {
+        
+        if let message = validate() {
+            
+            presentOKAlert(title: "Log in failed.", message: message)
+            return // We won't continue
+        }
+        // If the input form is valid, we can proceed to the login
+        
+        // To prevent retain cycles we are going to use a weak reference to the 'self'
+        Auth.auth().signIn(withEmail: email.text!, password: password.text!) { [weak self] (result, error) in
+            
+            // Move from the background thread (authentication) to the Main thread (UI)
+            // We need to always handle UI-related logic on the main thread
+            DispatchQueue.main.async {
+                
+                // Here we will unwrap self, in case the LoginScreen doesn't exist at the time this piece of code is executed, nothing should happen
+                guard let `self` = self else { return }
+                
+                if let _ = result?.user {
+                    // Successful login
+                    // Manual segue
+                    self.performSegue(withIdentifier: "showMainScreen", sender: nil)
+                } else {
+                    if let error = error {
+                        let message = error.localizedDescription
+                        self.presentOKAlert(title: "Log in failed.", message: message)
+                    }
+                }
+            }// end of dispatch queue
+        }// end of auth
+    }
 }
-
