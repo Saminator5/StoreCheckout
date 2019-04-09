@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2q8-Me-nVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yJy-46-xBc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -312,7 +312,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.27793447457107845" green="0.71272786458333337" blue="0.54900492749183005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.27843137254901962" green="0.71372549019607845" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
                                 <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -337,15 +337,11 @@
         <!--Cart-->
         <scene sceneID="Odg-wg-aoj">
             <objects>
-                <viewController title="Cart" id="WZc-s0-reu" customClass="CartScreen" customModule="QRCodeReader" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Cart" id="WZc-s0-reu" customClass="ThemeViewController" customModule="QRCodeReader" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nfY-I0-LNO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jsh-88-chM">
-                                <rect key="frame" x="66" y="88" width="240" height="510"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Items In Cart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heu-iT-fEG">
                                 <rect key="frame" x="137" y="35" width="101" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -450,13 +446,32 @@
                     <view key="view" contentMode="scaleToFill" id="sZa-7K-aHr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Spx-ly-FTv">
+                                <rect key="frame" x="8" y="543" width="360" height="80"/>
+                                <color key="backgroundColor" red="0.3803921569" green="0.71764705880000002" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Add Item To Cart">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="addItemToCart:" destination="coy-L4-sv6" eventType="touchUpInside" id="0My-74-l3f"/>
+                                    <segue destination="9Su-O5-g0E" kind="show" id="qCl-T9-5Aq"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZbD-gl-aQ1" firstAttribute="bottom" secondItem="Spx-ly-FTv" secondAttribute="bottom" constant="44" id="Sjz-ho-59G"/>
+                            <constraint firstItem="Spx-ly-FTv" firstAttribute="leading" secondItem="ZbD-gl-aQ1" secondAttribute="leading" constant="8" id="Tjd-Hn-vl4"/>
+                            <constraint firstItem="ZbD-gl-aQ1" firstAttribute="trailing" secondItem="Spx-ly-FTv" secondAttribute="trailing" constant="7" id="zb6-EI-iUD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ZbD-gl-aQ1"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wXb-Cc-oQu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2401" y="925"/>
+            <point key="canvasLocation" x="-2402.4000000000001" y="924.28785607196414"/>
         </scene>
         <!--Theme View Controller-->
         <scene sceneID="vEr-bc-10y">
@@ -465,20 +480,6 @@
                     <view key="view" contentMode="scaleToFill" id="1Wd-Ka-r0h">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Spx-ly-FTv">
-                                <rect key="frame" x="37" y="567" width="300" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.3803921569" green="0.71764705880000002" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <state key="normal" title="Add Item To Cart">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="addItemToCart:" destination="coy-L4-sv6" eventType="touchUpInside" id="0My-74-l3f"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bLN-6p-3Ox"/>
                     </view>
@@ -495,7 +496,4 @@
         <image name="qr" width="25" height="25"/>
         <image name="settings" width="20" height="20"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="ea9-sA-xwC"/>
-    </inferredMetricsTieBreakers>
 </document>

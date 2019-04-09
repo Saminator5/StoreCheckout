@@ -15,9 +15,9 @@ extension UIView {
         
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = bounds
-        gradientLayer.colors = [colorOne.cgColor, colorTwo.cgColor]
+        gradientLayer.colors = [Colors.specialBlue.cgColor, Colors.specialPurple.cgColor]
         
-        let x: Double! = 180 / 360.0
+        let x: Double! = 45 / 360.0
         let a = pow(sinf(Float(2.0 * Double.pi * ((x + 0.75) / 2.0))),2.0);
         let b = pow(sinf(Float(2*Double.pi*((x+0.0)/2))),2);
         let c = pow(sinf(Float(2*Double.pi*((x+0.25)/2))),2);

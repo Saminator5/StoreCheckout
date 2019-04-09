@@ -20,7 +20,7 @@ class RegisterScreen: UIViewController {
         view.setGradientBackground(colorOne: Colors.lightGrey, colorTwo: Colors.green)
         registerButton.layer.cornerRadius = registerButton.frame.size.height/2
         registerButton.layer.masksToBounds = true
-        
+        registerButton.backgroundColor = Colors.specialBlue
         if let myImage = UIImage(named: "email"){
             email.withImage(direction: .Left, image: myImage, colorSeparator: UIColor.orange, colorBorder: UIColor.black)
             setHeight(textField: email, height: 45)

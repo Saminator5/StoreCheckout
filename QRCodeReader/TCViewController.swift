@@ -10,7 +10,13 @@ import Foundation
 class ThemedCardController: CardPartsViewController {
     
     let possibleGradientColors: [UIColor] = [
-        Colors.lightGrey, Colors.green
+        UIColor(red: 181.0 / 255.0, green: 152.0 / 255.0, blue: 235.0 / 255.0, alpha: 1.0), // purple
+        UIColor(red: 30.0 / 255.0, green: 211.0 / 255.0, blue: 212.0 / 255.0, alpha: 1.0), // blue
+        //UIColor(red: 63.0 / 255.0, green: 236.0 / 255.0, blue: 216.0 / 255.0, alpha: 1.0),
+        //UIColor(red: 27.0 / 255.0, green: 205.0 / 255.0, blue: 156.0 / 255.0, alpha: 1.0),
+        //UIColor(red: 10.0 / 255.0, green: 199.0 / 255.0, blue: 117.0 / 255.0, alpha: 1.0),
+        //UIColor(red: 17.0 / 255.0, green: 174.0 / 255.0, blue: 155.0 / 255.0, alpha: 1.0),
+        //Colors.aqua, Colors.lightGrey, Colors.orange, Colors.brightOrange, Colors.green, Colors.lavender
     ]
     
     var _title: String = ""

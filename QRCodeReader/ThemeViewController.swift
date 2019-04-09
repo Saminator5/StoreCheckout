@@ -20,7 +20,15 @@ class ThemeViewController: CardsViewController {
             ThemedCardController(title: "Peanut Butter"),
             ThemedCardController(title: "Vapor Distilled Water"),
             ThemedCardController(title: "Li'l Critters Vitamins"),
-            ThemedCardController(title: "Sweet Tarts")
+            ThemedCardController(title: "Pancakes"),
+            ThemedCardController(title: "Syrup"),
+            ThemedCardController(title: "Diapers"),
+            ThemedCardController(title: "Yogurt"),
+            ThemedCardController(title: "Banana"),
+            ThemedCardController(title: "Monkey Business"),
+            ThemedCardController(title: "Shoes"),
+            ThemedCardController(title: "Socks")
+
         ]
         
         loadCards(cards: cards)

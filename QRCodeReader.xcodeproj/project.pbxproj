@@ -26,6 +26,7 @@
 		C3A7CFD42203F4CC00B58485 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7CFD32203F4CC00B58485 /* Constants.swift */; };
 		C3BACF9B2203CFCF00B6D586 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BACF9A2203CFCF00B6D586 /* LoginScreen.swift */; };
 		C3C9A0B122134D0500F6C989 /* BarCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9A0B022134D0500F6C989 /* BarCodeScanner.swift */; };
+		C3EB69BB225C8BEA00A112F7 /* GetRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EB69BA225C8BEA00A112F7 /* GetRGB.swift */; };
 		E35EA296CBFBD0F3015B44C8 /* Pods_QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB570E75CA3E30810A2DCEE8 /* Pods_QRCodeReader.framework */; };
 		F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F09DB61DAF669400026BB2 /* AppDelegate.swift */; };
 		F4F09DBC1DAF669400026BB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F09DBA1DAF669400026BB2 /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		C3A7CFD32203F4CC00B58485 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C3BACF9A2203CFCF00B6D586 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		C3C9A0B022134D0500F6C989 /* BarCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScanner.swift; sourceTree = "<group>"; };
+		C3EB69BA225C8BEA00A112F7 /* GetRGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRGB.swift; sourceTree = "<group>"; };
 		EB570E75CA3E30810A2DCEE8 /* Pods_QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F09DB31DAF669400026BB2 /* QRCodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F09DB61DAF669400026BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				C371073C225C6C7D00BB157A /* SamCard.swift */,
 				C3710738225C663E00BB157A /* TCViewController.swift */,
 				C371073A225C669A00BB157A /* ThemeViewController.swift */,
+				C3EB69BA225C8BEA00A112F7 /* GetRGB.swift */,
 			);
 			path = QRCodeReader;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				C371073B225C669A00BB157A /* ThemeViewController.swift in Sources */,
 				C3C9A0B122134D0500F6C989 /* BarCodeScanner.swift in Sources */,
 				C37274E8222798D600A21A3B /* ItemScreen.swift in Sources */,
+				C3EB69BB225C8BEA00A112F7 /* GetRGB.swift in Sources */,
 				C3A7CFD02203ECC200B58485 /* TextFieldExtension.swift in Sources */,
 				C36E6A772205330B0093B332 /* CartScreen.swift in Sources */,
 				F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */,

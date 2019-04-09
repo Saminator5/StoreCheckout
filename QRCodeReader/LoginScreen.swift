@@ -46,7 +46,12 @@ class LoginScreen: UIViewController {
         
         logInButton.layer.cornerRadius = logInButton.frame.size.height/2
         logInButton.layer.masksToBounds = true
-        
+        logInButton.backgroundColor = Colors.specialBlue
+        if let rgb = logInButton.backgroundColor!.rgb() {
+            print(rgb)
+        } else {
+            print("conversion failed")
+        }
 //        self.view.setGradientBackground(colorOne: Colors.veryDarkGrey, colorTwo: Colors.darkGrey)
 //
 //        self.gradientView.setGradientBackground(colorOne: Colors.white, colorTwo: Colors.blue)
