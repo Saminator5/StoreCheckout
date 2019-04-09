@@ -36,11 +36,30 @@ class ThemedCardController: CardPartsViewController {
         titleCP.textAlignment = .center
         titleCP.textColor = .white
         
-        setupCardParts([titleCP])
+        let buttonCP = CardPartButtonView()
+        buttonCP.setTitle("", for: .normal)
+        buttonCP.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+        let trashImage = UIImage(named: "trash")
+        buttonCP.setImage(trashImage, for: .normal)
+        
+        
+        setupCardParts([titleCP, buttonCP])
         
         view.addConstraint(NSLayoutConstraint(item: view, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 280))
     }
+    
+    @objc func buttonTapped() {
+        
+        let alertController = UIAlertController(title: "Remove!", message: "Are you sure!?", preferredStyle: .alert)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        alertController.addAction(cancelAction)
+        
+        self.present(alertController, animated: true, completion: nil)
+    }
 }
+
+
 
 extension ThemedCardController: ShadowCardTrait {
     func shadowColor() -> CGColor {

@@ -17,10 +17,10 @@ class ThemeViewController: CardsViewController {
         
         // Comment out one of the loadCard functions to change cards and/or their order
         let cards: [CardPartsViewController] = [
-            ThemedCardController(title: "These"),
-            ThemedCardController(title: "Are"),
-            ThemedCardController(title: "Themed"),
-            ThemedCardController(title: "Cards!")
+            ThemedCardController(title: "Peanut Butter"),
+            ThemedCardController(title: "Vapor Distilled Water"),
+            ThemedCardController(title: "Li'l Critters Vitamins"),
+            ThemedCardController(title: "Sweet Tarts")
         ]
         
         loadCards(cards: cards)

@@ -17,6 +17,7 @@
 		C36E6A79220533530093B332 /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A78220533530093B332 /* SettingScreen.swift */; };
 		C3710739225C663E00BB157A /* TCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3710738225C663E00BB157A /* TCViewController.swift */; };
 		C371073B225C669A00BB157A /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371073A225C669A00BB157A /* ThemeViewController.swift */; };
+		C371073D225C6C7D00BB157A /* SamCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371073C225C6C7D00BB157A /* SamCard.swift */; };
 		C37274E8222798D600A21A3B /* ItemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37274E7222798D600A21A3B /* ItemScreen.swift */; };
 		C37274EA2227A84000A21A3B /* NavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37274E92227A84000A21A3B /* NavigationHelper.swift */; };
 		C3A7CFCE2203DC4C00B58485 /* gradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A7CFCD2203DC4C00B58485 /* gradientView.swift */; };
@@ -47,6 +48,7 @@
 		C36E6A78220533530093B332 /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
 		C3710738225C663E00BB157A /* TCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCViewController.swift; sourceTree = "<group>"; };
 		C371073A225C669A00BB157A /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
+		C371073C225C6C7D00BB157A /* SamCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamCard.swift; sourceTree = "<group>"; };
 		C37274E7222798D600A21A3B /* ItemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemScreen.swift; sourceTree = "<group>"; };
 		C37274E92227A84000A21A3B /* NavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHelper.swift; sourceTree = "<group>"; };
 		C3A7CFCD2203DC4C00B58485 /* gradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientView.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				C313CE2F225964C8008C4062 /* backup.swift */,
 				C313CE2D225944D0008C4062 /* Cart.swift */,
 				C313CE37225C1881008C4062 /* ItemCard.swift */,
+				C371073C225C6C7D00BB157A /* SamCard.swift */,
 				C3710738225C663E00BB157A /* TCViewController.swift */,
 				C371073A225C669A00BB157A /* ThemeViewController.swift */,
 			);
@@ -291,6 +294,7 @@
 				C3A7CFCE2203DC4C00B58485 /* gradientView.swift in Sources */,
 				C3A7CFD22203F46800B58485 /* RegisterScreen.swift in Sources */,
 				C36E6A79220533530093B332 /* SettingScreen.swift in Sources */,
+				C371073D225C6C7D00BB157A /* SamCard.swift in Sources */,
 				C371073B225C669A00BB157A /* ThemeViewController.swift in Sources */,
 				C3C9A0B122134D0500F6C989 /* BarCodeScanner.swift in Sources */,
 				C37274E8222798D600A21A3B /* ItemScreen.swift in Sources */,
