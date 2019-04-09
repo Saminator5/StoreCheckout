@@ -1,16 +1,49 @@
 PODS:
+  - CardParts (2.7.5):
+    - RxCocoa (~> 4.4)
+    - RxDataSources (~> 3.1)
+    - RxGesture (~> 2.1)
+    - RxSwift (~> 4.4)
+  - Differentiator (3.1.0)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxGesture (2.1.0):
+    - RxCocoa (~> 4.4.0)
+    - RxSwift (~> 4.4.0)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
   - Stripe (15.0.0)
 
 DEPENDENCIES:
+  - CardParts
   - Stripe
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - CardParts
+    - Differentiator
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxSwift
     - Stripe
 
 SPEC CHECKSUMS:
+  CardParts: c01bb244bd0d8eb991898f84f549f84cc5010e02
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxGesture: 7f6dfb45dbde06e618c24442d38493e3144f2c95
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
   Stripe: 312b22a67af9fa55c246d26148b3f3a9636a0ff2
 
-PODFILE CHECKSUM: 7fe7f30564fcee1b44882107a58b83fe3211e95d
+PODFILE CHECKSUM: 1ce3ce56b6ed0c524ecf4960812d290e5a6a0631
 
 COCOAPODS: 1.6.1

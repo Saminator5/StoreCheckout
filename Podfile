@@ -7,5 +7,6 @@ target 'QRCodeReader' do
 
   # Pods for QRCodeReader
   pod 'Stripe'
+  pod 'CardParts'
 
 end
