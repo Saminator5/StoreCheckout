@@ -18,9 +18,9 @@ class SettingScreen: UIViewController {
     }
     
     
-    @IBOutlet weak var emailReset: UITextField!
     @IBOutlet weak var resetButton: UIButton!
-    
+    @IBOutlet weak var emailReset: UITextField!
+
     //reset password
     @IBAction func resetPassword(_ sender: UIButton) {
         if let email = emailReset.text {
