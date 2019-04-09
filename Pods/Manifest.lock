@@ -1,4 +1,5 @@
 PODS:
+<<<<<<< HEAD
   - Firebase (5.19.0):
     - Firebase/Core (= 5.19.0)
   - Firebase/Core (5.19.0):
@@ -90,5 +91,20 @@ SPEC CHECKSUMS:
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
 
 PODFILE CHECKSUM: d216e0f56577b8b45c8eb8f465f946bbacf0e111
+=======
+  - Stripe (15.0.0)
+
+DEPENDENCIES:
+  - Stripe
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Stripe
+
+SPEC CHECKSUMS:
+  Stripe: 312b22a67af9fa55c246d26148b3f3a9636a0ff2
+
+PODFILE CHECKSUM: 7fe7f30564fcee1b44882107a58b83fe3211e95d
+>>>>>>> 315df25890cb64ff7854105cdc36127af6599c0a
 
 COCOAPODS: 1.6.1

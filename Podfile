@@ -6,8 +6,12 @@ target 'QRCodeReader' do
   use_frameworks!
 
   # Pods for QRCodeReader
+<<<<<<< HEAD
   pod 'Firebase'
   pod 'FirebaseCore'
   pod 'FirebaseAuth'
+=======
+  pod 'Stripe'
+>>>>>>> 315df25890cb64ff7854105cdc36127af6599c0a
 
 end

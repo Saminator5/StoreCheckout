@@ -28,6 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window?.makeKeyAndVisible()
         }
         
+        STPPaymentConfiguration.shared().publishableKey = "pk_test_TYooMQauvdEDq54NiTphI7jx"
+       return true
         return true
     }
 
@@ -55,4 +57,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
