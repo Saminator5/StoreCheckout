@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDCB22E4225C4CDA0009247B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDCB22E3225C4CDA0009247B /* GoogleService-Info.plist */; };
 		C36E6A712205193B0093B332 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A702205193B0093B332 /* HomeScreen.swift */; };
 		C36E6A732205266D0093B332 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A722205266D0093B332 /* CustomTabBarController.swift */; };
 		C36E6A7522052B210093B332 /* TabBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A7422052B210093B332 /* TabBarExtension.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDCB22E3225C4CDA0009247B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C36E6A702205193B0093B332 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		C36E6A722205266D0093B332 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		C36E6A7422052B210093B332 /* TabBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExtension.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				F4F09DC81DAF6A3800026BB2 /* QRCodeViewController.swift */,
 				F4F09DCA1DAF6A4F00026BB2 /* QRScannerController.swift */,
 				C3C9A0B022134D0500F6C989 /* BarCodeScanner.swift */,
+				BDCB22E3225C4CDA0009247B /* GoogleService-Info.plist */,
 			);
 			path = QRCodeReader;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				F4F09DC11DAF669400026BB2 /* LaunchScreen.storyboard in Resources */,
 				F4F09DBE1DAF669400026BB2 /* Assets.xcassets in Resources */,
 				F4F09DBC1DAF669400026BB2 /* Main.storyboard in Resources */,
+				BDCB22E4225C4CDA0009247B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
