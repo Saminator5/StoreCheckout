@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 import FirebaseAuth
 
 @UIApplicationMain
@@ -19,8 +20,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         
+        //testing
+//        Auth.auth().signInAnonymously { [unowned self] (result, error) in
+//            // We're signed in, let's do some testing
+//            self.testFirebase()
+//        }
+//
+        //if we are already logged in, the first screen to see should be the main screen
+        if Auth.auth().currentUser != nil {
+            //get the main screen
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainScreen")
+            
+            window?.rootViewController = vc
+            window?.makeKeyAndVisible()
+        }
+        
         return true
     }
+    
+    
+    
+//    func testFirebase() {
+//        let testingResponse : [String : Any] = [
+//            "name" : "Shampoo",
+//            "price" : 5.0,
+//            "imageURL" : "https://alskdjflaskjdf"
+//        ]
+//
+//       FirebaseService.shared.saveBasketItem(productResponse: testingResponse)
+//    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

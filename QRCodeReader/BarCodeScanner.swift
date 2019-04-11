@@ -9,6 +9,9 @@
 import Foundation
 import AVFoundation
 import UIKit
+import Firebase
+import FirebaseDatabase
+import FirebaseAuth
 
 class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     var captureSession: AVCaptureSession!
@@ -99,7 +102,7 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
        let url = URL(string:"https://api.barcodelookup.com/v2/products?barcode=\(code)&key=\(key)")!
        // let url = URL(string:"https://secure25.win.hostgator.com/searchupc_com/handlers/upcsearch.ashx?request_type=1&access_token=\(my_token)&upc=\(code)")!
         
-        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+        let task = URLSession.shared.dataTask(with: url) { [unowned self] (data, response, error) in
             if(error == nil) {
                 let returnedData = data!
                 print("returnedData: ", returnedData)
@@ -107,6 +110,10 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
                 
                 if let data = data, let stringResponse = String(data: data, encoding: .utf8) {
                     print("Response \(stringResponse)")
+                    
+                    if let r = try? JSONSerialization.jsonObject(with: data, options: [.allowFragments]) as? [String : Any], let productResponse = r {
+                        FirebaseService.shared.saveBasketItem(productResponse: productResponse)
+                    }
                 }
             }
             else {
@@ -115,9 +122,6 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
         }
         
         task.resume()
-        
-        
-
     }
     
     override var prefersStatusBarHidden: Bool {
