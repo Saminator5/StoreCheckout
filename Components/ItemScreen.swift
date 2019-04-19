@@ -20,10 +20,6 @@ class ItemViewController: UIViewController {
         addItemToCart(name: self.productName.text!, value: 1)
     }
     
-//    override func viewWillAppear(_ animated: Bool) {
-//        self.productInfo = String(data: self.data!, encoding: .utf8)
-//    }
-//
     @IBOutlet weak var productName: UILabel!
     
     @IBOutlet weak var productManufacturer: UILabel!

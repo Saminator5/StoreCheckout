@@ -20,7 +20,6 @@ class LoginScreen: UIViewController {
     @IBOutlet weak var email: UITextField!
     
     @IBOutlet weak var password: UITextField!
-
     
     @IBAction func exitTextField(_ sender: Any) {
         (sender as! UITextField).resignFirstResponder()

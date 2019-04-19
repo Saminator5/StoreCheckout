@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import Stripe
 struct Colors {
     
     static let brightOrange     = UIColor(red: 255.0/255.0, green: 69.0/255.0, blue: 0.0/255.0, alpha: 1.0)
@@ -35,3 +36,5 @@ func setHeight(textField: UITextField, height: Int) {
     textField.frame = rect
 }
 
+//let customerContext = STPCustomerContext(keyProvider: MyAPIClient.sharedClient)
+//

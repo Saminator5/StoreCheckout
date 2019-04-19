@@ -134,7 +134,7 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as! ItemViewController
+        let vc = segue.destination as! ItemCard
         vc.data = self.data
     }
 
