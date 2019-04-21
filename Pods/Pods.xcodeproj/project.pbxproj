@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = FirebaseAuthInterop;
+			productName = FirebaseAuthInterop;
 		};
 		232D00D8ED7797390FB38004DE01723B /* FirebaseAnalytics */ = {
 			isa = PBXAggregateTarget;
@@ -29,6 +30,7 @@
 				A545116FEA98CB2DC602ECFE976A5146 /* PBXTargetDependency */,
 			);
 			name = FirebaseAnalytics;
+			productName = FirebaseAnalytics;
 		};
 		57B9E0A892EAB5C13D4AE7D4B1DE0C16 /* GoogleAppMeasurement */ = {
 			isa = PBXAggregateTarget;
@@ -40,6 +42,7 @@
 				3BDD26DF1C76A2717767412BFEFD633E /* PBXTargetDependency */,
 			);
 			name = GoogleAppMeasurement;
+			productName = GoogleAppMeasurement;
 		};
 		799B29F9D6DCE28B98CC259440382F20 /* Firebase */ = {
 			isa = PBXAggregateTarget;
@@ -51,6 +54,7 @@
 				CB67FB062DE8CAF07E20E144CB621739 /* PBXTargetDependency */,
 			);
 			name = Firebase;
+			productName = Firebase;
 		};
 /* End PBXAggregateTarget section */
 
@@ -1435,7 +1439,7 @@
 		05D567F4504A9EA2FF7C60ED7A85C2B4 /* FIRComponentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRComponentType.m; path = Firebase/Core/FIRComponentType.m; sourceTree = "<group>"; };
 		063FB98F5D1E9496297C6471849910F5 /* FIRInstanceIDKeyPairStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDKeyPairStore.m; path = Firebase/InstanceID/FIRInstanceIDKeyPairStore.m; sourceTree = "<group>"; };
 		06C20C4C101F3C27D3A26B85A225287A /* STPPaymentIntent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentIntent.h; path = Stripe/PublicHeaders/STPPaymentIntent.h; sourceTree = "<group>"; };
-		06DD71BE37539F023D3A64DE7A6927AB /* iterator.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = iterator.cc; path = table/iterator.cc; sourceTree = "<group>"; };
+		06DD71BE37539F023D3A64DE7A6927AB /* iterator.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = iterator.cc; path = table/iterator.cc; sourceTree = "<group>"; };
 		06EC6996CA089B7FAA300B79F5768217 /* stp_card_cvc_amex@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_cvc_amex@3x.png"; path = "Stripe/Resources/Images/stp_card_cvc_amex@3x.png"; sourceTree = "<group>"; };
 		06F10023154E54BF8A77D1E5C66DD922 /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
 		0709322663D360F06B4B3D98B76723E3 /* FIRInstanceIDKeyPairUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDKeyPairUtilities.m; path = Firebase/InstanceID/FIRInstanceIDKeyPairUtilities.m; sourceTree = "<group>"; };
@@ -1450,7 +1454,7 @@
 		09CF9560F655824DF1CBB1683332ABD8 /* FTupleUserCallback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTupleUserCallback.m; path = Firebase/Database/Utilities/Tuples/FTupleUserCallback.m; sourceTree = "<group>"; };
 		09FD5521C2F267D7D078B94280ECA8E0 /* FIRInstanceIDTokenFetchOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDTokenFetchOperation.h; path = Firebase/InstanceID/FIRInstanceIDTokenFetchOperation.h; sourceTree = "<group>"; };
 		0A6936D83AA1F790E493975906525FC2 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		0AC7CB0738D9F28DD0071C796C4E80FE /* repair.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = repair.cc; path = db/repair.cc; sourceTree = "<group>"; };
+		0AC7CB0738D9F28DD0071C796C4E80FE /* repair.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = repair.cc; path = db/repair.cc; sourceTree = "<group>"; };
 		0B67AE1B3A7A4B65F74607572EF2AB8A /* FRepo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FRepo.h; path = Firebase/Database/Core/FRepo.h; sourceTree = "<group>"; };
 		0BA1A40E4F08BDDA1BE89FBDE2272C09 /* stp_card_diners_template.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = stp_card_diners_template.png; path = Stripe/Resources/Images/stp_card_diners_template.png; sourceTree = "<group>"; };
 		0C695C9F80B059E3F8EE3C927363B524 /* FABKitProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABKitProtocol.h; path = Stripe/FABKitProtocol.h; sourceTree = "<group>"; };
@@ -1483,7 +1487,7 @@
 		116507FD0A82EA71DACF58501493A14E /* FIRInstanceIDConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDConstants.m; path = Firebase/InstanceID/FIRInstanceIDConstants.m; sourceTree = "<group>"; };
 		116EE975D8C34B9CB1BD918143760407 /* FKeyIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKeyIndex.m; path = Firebase/Database/FKeyIndex.m; sourceTree = "<group>"; };
 		117CB4E95B45988B977145FCEC7D5385 /* STPAPIClient+ApplePay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPAPIClient+ApplePay.h"; path = "Stripe/PublicHeaders/STPAPIClient+ApplePay.h"; sourceTree = "<group>"; };
-		11B122EAFB1211A07686F184CB44AFD3 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
+		11B122EAFB1211A07686F184CB44AFD3 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_decode.c; sourceTree = "<group>"; };
 		120F394055A3E0C79D682D411D1DF63B /* FIRDatabaseConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRDatabaseConfig.h; path = Firebase/Database/Api/FIRDatabaseConfig.h; sourceTree = "<group>"; };
 		12584F9C60957FC7EE71AE6C39F0F873 /* FirebaseInstanceID-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FirebaseInstanceID-Info.plist"; sourceTree = "<group>"; };
 		1274EEC9D15A64A46D1644B807241470 /* stp_card_unionpay_en@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_unionpay_en@3x.png"; path = "Stripe/Resources/Images/stp_card_unionpay_en@3x.png"; sourceTree = "<group>"; };
@@ -1493,7 +1497,7 @@
 		138DF7F5B2475A785B062BD9DD871058 /* FNamedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNamedNode.m; path = Firebase/Database/FNamedNode.m; sourceTree = "<group>"; };
 		13AA001BF0BE3CE015CA9444F478EE69 /* stp_card_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_error@2x.png"; path = "Stripe/Resources/Images/stp_card_error@2x.png"; sourceTree = "<group>"; };
 		13F3630B79A13C334550BAF330EEE2C6 /* FIRAuthAppCredential.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthAppCredential.m; path = Firebase/Auth/Source/FIRAuthAppCredential.m; sourceTree = "<group>"; };
-		140213A176B986A7D0C94D942BADDC00 /* bloom.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = bloom.cc; path = util/bloom.cc; sourceTree = "<group>"; };
+		140213A176B986A7D0C94D942BADDC00 /* bloom.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = bloom.cc; path = util/bloom.cc; sourceTree = "<group>"; };
 		1420374E927B7D182FB57B75ADE8650C /* status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = status.h; path = include/leveldb/status.h; sourceTree = "<group>"; };
 		1442C11E50851872D32C2FE829313F6A /* FirebaseDatabase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FirebaseDatabase.modulemap; sourceTree = "<group>"; };
 		1450259FCBDA71D824DDF6CB892F0E5A /* FIREmailLinkSignInResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIREmailLinkSignInResponse.h; path = Firebase/Auth/Source/RPCs/FIREmailLinkSignInResponse.h; sourceTree = "<group>"; };
@@ -1542,9 +1546,9 @@
 		1D9CCE524E287FA142DF030C9F2361D1 /* GULNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GULNSData+zlib.m"; path = "GoogleUtilities/NSData+zlib/GULNSData+zlib.m"; sourceTree = "<group>"; };
 		1F0DEDA46F0251F1257808210DE9A76E /* FIRVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRVersion.h; path = Firebase/Core/Private/FIRVersion.h; sourceTree = "<group>"; };
 		1F5AFB96DD962728CE5A8A2D46F3952A /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
-		1F7351E7B8358B1B823D4803ABF16BFD /* fbase64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fbase64.c; path = Firebase/Database/third_party/SocketRocket/fbase64.c; sourceTree = "<group>"; };
+		1F7351E7B8358B1B823D4803ABF16BFD /* fbase64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fbase64.c; path = Firebase/Database/third_party/SocketRocket/fbase64.c; sourceTree = "<group>"; };
 		1F8C827EE17AE9FEF8935339F5D61E51 /* STPPaymentIntent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentIntent.m; path = Stripe/STPPaymentIntent.m; sourceTree = "<group>"; };
-		1FBFDFDF57D1A007705559F6ED000214 /* log_reader.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = log_reader.cc; path = db/log_reader.cc; sourceTree = "<group>"; };
+		1FBFDFDF57D1A007705559F6ED000214 /* log_reader.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = log_reader.cc; path = db/log_reader.cc; sourceTree = "<group>"; };
 		1FD1F4EAA4265443F659507D60105518 /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
 		2026457428BA2800FFBEF3A8B876E21D /* NSCharacterSet+Stripe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCharacterSet+Stripe.h"; path = "Stripe/NSCharacterSet+Stripe.h"; sourceTree = "<group>"; };
 		20464B321E5B06C756766B4EC8EEE811 /* STPCoreViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCoreViewController.h; path = Stripe/PublicHeaders/STPCoreViewController.h; sourceTree = "<group>"; };
@@ -1553,7 +1557,7 @@
 		20722600F90ED8D627709D00C6F930CB /* stp_card_discover_template@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_discover_template@3x.png"; path = "Stripe/Resources/Images/stp_card_discover_template@3x.png"; sourceTree = "<group>"; };
 		20B37F9449A5D33A948B47123EA5966C /* STPAddressViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPAddressViewModel.h; path = Stripe/STPAddressViewModel.h; sourceTree = "<group>"; };
 		212C2C08181362FD8B24942870857B8B /* FirebaseAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FirebaseAuth-Info.plist"; sourceTree = "<group>"; };
-		2131998B2C9A95BA1B207B2383C5743F /* hash.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = hash.cc; path = util/hash.cc; sourceTree = "<group>"; };
+		2131998B2C9A95BA1B207B2383C5743F /* hash.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = hash.cc; path = util/hash.cc; sourceTree = "<group>"; };
 		2176A4D2F27257847869AD7112B70931 /* FQueryParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FQueryParams.m; path = Firebase/Database/Core/FQueryParams.m; sourceTree = "<group>"; };
 		21B0AFCB521FEA9E934F1895BE21A932 /* UIImage+Stripe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Stripe.m"; path = "Stripe/UIImage+Stripe.m"; sourceTree = "<group>"; };
 		2223FE45CF7369E50A1FEF8A7087837F /* port_example.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = port_example.h; path = port/port_example.h; sourceTree = "<group>"; };
@@ -1604,7 +1608,7 @@
 		2C171B5C857EB5953A727D906839E727 /* STPConnectAccountParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPConnectAccountParams.m; path = Stripe/STPConnectAccountParams.m; sourceTree = "<group>"; };
 		2C4453FC960E8E3AEACA007B4BF2E6C1 /* FIRAuthDataResult_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthDataResult_Internal.h; path = Firebase/Auth/Source/FIRAuthDataResult_Internal.h; sourceTree = "<group>"; };
 		2C4DA6797CB224DA0CE4BADCDA8D8A26 /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
-		2C60C3D625DB5BDDF1F418EE15445A27 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FirebaseDatabase.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C60C3D625DB5BDDF1F418EE15445A27 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6B95131545D3261A2FD11BAC8A7830 /* FIRIdentityToolkitRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRIdentityToolkitRequest.h; path = Firebase/Auth/Source/RPCs/FIRIdentityToolkitRequest.h; sourceTree = "<group>"; };
 		2C7B56C801A349C62579D26C392CDDC6 /* NSCharacterSet+Stripe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCharacterSet+Stripe.m"; path = "Stripe/NSCharacterSet+Stripe.m"; sourceTree = "<group>"; };
 		2C9C91F5984E7A7E8B09515305F28F79 /* FIRVerifyAssertionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRVerifyAssertionRequest.h; path = Firebase/Auth/Source/RPCs/FIRVerifyAssertionRequest.h; sourceTree = "<group>"; };
@@ -1618,7 +1622,7 @@
 		2E7A3308B1DEE43F0E0970A439DEAFA1 /* STPPaymentIntentSourceAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentIntentSourceAction.h; path = Stripe/PublicHeaders/STPPaymentIntentSourceAction.h; sourceTree = "<group>"; };
 		2E7E0327AB09979FFD28F929FEFF6092 /* FChildrenNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FChildrenNode.h; path = Firebase/Database/Snapshot/FChildrenNode.h; sourceTree = "<group>"; };
 		2EC6C38ADD8417F964AE58ACDF662B6C /* STPBackendAPIAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPBackendAPIAdapter.h; path = Stripe/PublicHeaders/STPBackendAPIAdapter.h; sourceTree = "<group>"; };
-		2ED7AC75F44ACAE54A14A0DFC95C2AA2 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FirebaseAuth.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED7AC75F44ACAE54A14A0DFC95C2AA2 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F309EA228555C28E13D3C9D541C4CB6 /* FIREmailLinkSignInRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIREmailLinkSignInRequest.m; path = Firebase/Auth/Source/RPCs/FIREmailLinkSignInRequest.m; sourceTree = "<group>"; };
 		2F927BFE5E5A03BCFB85F3D37AE2B90B /* stp_card_mastercard@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_mastercard@2x.png"; path = "Stripe/Resources/Images/stp_card_mastercard@2x.png"; sourceTree = "<group>"; };
 		2FBE7FCDCD6639662581D58607E25692 /* FSRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSRWebSocket.h; path = Firebase/Database/third_party/SocketRocket/FSRWebSocket.h; sourceTree = "<group>"; };
@@ -1646,18 +1650,18 @@
 		354653B3A673BC5970152F6DFCA59637 /* STPPaymentIntentActionRedirectToURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentIntentActionRedirectToURL.h; path = Stripe/PublicHeaders/STPPaymentIntentActionRedirectToURL.h; sourceTree = "<group>"; };
 		355883C0E5E90EB574A2F81D554BE1DF /* FIRInstanceIDTokenOperation+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIRInstanceIDTokenOperation+Private.h"; path = "Firebase/InstanceID/FIRInstanceIDTokenOperation+Private.h"; sourceTree = "<group>"; };
 		35F9A57D8C9FFCBD043BE9135ED3DD72 /* stp_card_unionpay_template_en@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_unionpay_template_en@2x.png"; path = "Stripe/Resources/Images/stp_card_unionpay_template_en@2x.png"; sourceTree = "<group>"; };
-		3660C06800B59E0B7C099C0A0838E9D2 /* table.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = table.cc; path = table/table.cc; sourceTree = "<group>"; };
+		3660C06800B59E0B7C099C0A0838E9D2 /* table.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = table.cc; path = table/table.cc; sourceTree = "<group>"; };
 		367147732581D839F26A0840F1D92A33 /* FTupleObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTupleObjects.m; path = Firebase/Database/Utilities/Tuples/FTupleObjects.m; sourceTree = "<group>"; };
 		36B3F33F61D36DBA1B05333C7EB1F742 /* STPMultipartFormDataPart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPMultipartFormDataPart.h; path = Stripe/STPMultipartFormDataPart.h; sourceTree = "<group>"; };
 		36DA19BB160ED4F7D0072A7E66DF59B8 /* FIRVerifyClientResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRVerifyClientResponse.h; path = Firebase/Auth/Source/RPCs/FIRVerifyClientResponse.h; sourceTree = "<group>"; };
 		37399B8912666D7456476E4199E080CC /* FTypedefs_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTypedefs_Private.h; path = Firebase/Database/Api/Private/FTypedefs_Private.h; sourceTree = "<group>"; };
 		37547AD57BDA9FA3903C304BE99BEFF0 /* FImmutableSortedSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FImmutableSortedSet.m; path = Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FImmutableSortedSet.m; sourceTree = "<group>"; };
-		3770ADF897D780F26C993708C99E1490 /* testharness.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = testharness.cc; path = util/testharness.cc; sourceTree = "<group>"; };
+		3770ADF897D780F26C993708C99E1490 /* testharness.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = testharness.cc; path = util/testharness.cc; sourceTree = "<group>"; };
 		37AA884AB8A0A1DCCA961F4D89B8EADD /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		37EBF2BF4C7CB5691BA8DBD2A5E9567A /* FParsedUrl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FParsedUrl.h; path = Firebase/Database/Utilities/FParsedUrl.h; sourceTree = "<group>"; };
 		37F354239D2A7CF03EC3B841D53B8ECC /* GULNetworkConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkConstants.m; path = GoogleUtilities/Network/GULNetworkConstants.m; sourceTree = "<group>"; };
 		3888814847E3041201708D8ACAC66CEA /* stp_card_jcb_template@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_jcb_template@2x.png"; path = "Stripe/Resources/Images/stp_card_jcb_template@2x.png"; sourceTree = "<group>"; };
-		388EDCBD542F2C39BBAC31A37CE34F96 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		388EDCBD542F2C39BBAC31A37CE34F96 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E5D93E8186760135BD77255FBF2EE8 /* FSnapshotUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSnapshotUtilities.m; path = Firebase/Database/Snapshot/FSnapshotUtilities.m; sourceTree = "<group>"; };
 		3900DF4680A3B547F259AB8EF71691E9 /* STPPaymentMethodCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentMethodCard.h; path = Stripe/PublicHeaders/STPPaymentMethodCard.h; sourceTree = "<group>"; };
 		39953FDF970BA3F0203004A0B5535F2D /* STPCard+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPCard+Private.h"; path = "Stripe/STPCard+Private.h"; sourceTree = "<group>"; };
@@ -1710,11 +1714,11 @@
 		43E7DB0D0FAD1D1BBD6C8B25D1E2091F /* FIRAuthWebUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthWebUtils.m; path = Firebase/Auth/Source/FIRAuthWebUtils.m; sourceTree = "<group>"; };
 		4425130BCA594DB3B8EE4370789DFADC /* leveldb-library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "leveldb-library.modulemap"; sourceTree = "<group>"; };
 		445E3F81A964BC982BC528A9E8B77164 /* FSyncTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSyncTree.m; path = Firebase/Database/Core/FSyncTree.m; sourceTree = "<group>"; };
-		449C857565AD2FF93AFA9670E7CC5822 /* db_impl.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = db_impl.cc; path = db/db_impl.cc; sourceTree = "<group>"; };
+		449C857565AD2FF93AFA9670E7CC5822 /* db_impl.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = db_impl.cc; path = db/db_impl.cc; sourceTree = "<group>"; };
 		455F826C64C839913C66983AED7DB9D6 /* FIRVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRVersion.m; path = Firebase/Core/FIRVersion.m; sourceTree = "<group>"; };
 		4577899229E7B471579B4713E9C0E88D /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		45CDEEECC72DF2D8C6900A78D24F27C9 /* FLeafNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLeafNode.h; path = Firebase/Database/Snapshot/FLeafNode.h; sourceTree = "<group>"; };
-		45E3F5FA133BD5288610AB3B8599CA94 /* table_builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = table_builder.cc; path = table/table_builder.cc; sourceTree = "<group>"; };
+		45E3F5FA133BD5288610AB3B8599CA94 /* table_builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = table_builder.cc; path = table/table_builder.cc; sourceTree = "<group>"; };
 		46411A314FA4ABFBD9BE1863A48E566A /* log_format.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log_format.h; path = db/log_format.h; sourceTree = "<group>"; };
 		4648342B0A303FE8861E579466B82BAC /* FIndexedFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIndexedFilter.h; path = Firebase/Database/Core/View/Filter/FIndexedFilter.h; sourceTree = "<group>"; };
 		465A9399758EF7C0BDAEF2170477258E /* FIRAuthSerialTaskQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthSerialTaskQueue.m; path = Firebase/Auth/Source/FIRAuthSerialTaskQueue.m; sourceTree = "<group>"; };
@@ -1736,13 +1740,13 @@
 		48745CB292C0BC3D97355FCEE61256C9 /* FIRVerifyAssertionResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRVerifyAssertionResponse.m; path = Firebase/Auth/Source/RPCs/FIRVerifyAssertionResponse.m; sourceTree = "<group>"; };
 		48FB55C44D8FB6C75E2CF489F7201614 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		490BD8425D0C2E853D3AE0EFA8CBD308 /* FIRFacebookAuthProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRFacebookAuthProvider.h; path = Firebase/Auth/Source/Public/FIRFacebookAuthProvider.h; sourceTree = "<group>"; };
-		4987A07FB63C93AC20C98D047DEAB294 /* arena.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = arena.cc; path = util/arena.cc; sourceTree = "<group>"; };
+		4987A07FB63C93AC20C98D047DEAB294 /* arena.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = arena.cc; path = util/arena.cc; sourceTree = "<group>"; };
 		49D89269B822F8DFEFCCFAC714F07E40 /* FIRInstanceIDStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDStore.m; path = Firebase/InstanceID/FIRInstanceIDStore.m; sourceTree = "<group>"; };
 		49EDCDC6120B99E84CEE606368431D60 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		4A60E85EFA96BCCEA908F1C61E791167 /* FIRAuthInterop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthInterop.h; path = Interop/Auth/Public/FIRAuthInterop.h; sourceTree = "<group>"; };
-		4A7DAA7007C2BB5B2F57B16072E21A1A /* env_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = env_posix.cc; path = util/env_posix.cc; sourceTree = "<group>"; };
+		4A7DAA7007C2BB5B2F57B16072E21A1A /* env_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = env_posix.cc; path = util/env_posix.cc; sourceTree = "<group>"; };
 		4AF79C9DDAD02592C16B91A0481669DB /* FTreeSortedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTreeSortedDictionary.h; path = Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FTreeSortedDictionary.h; sourceTree = "<group>"; };
-		4B117BD07972AA53EC20ED2DA70F794D /* log_writer.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = log_writer.cc; path = db/log_writer.cc; sourceTree = "<group>"; };
+		4B117BD07972AA53EC20ED2DA70F794D /* log_writer.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = log_writer.cc; path = db/log_writer.cc; sourceTree = "<group>"; };
 		4B71FDF708897F8349CBC65673820333 /* stp_card_amex_template@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_amex_template@2x.png"; path = "Stripe/Resources/Images/stp_card_amex_template@2x.png"; sourceTree = "<group>"; };
 		4B81D0DEEDBB814E3BBE6F6BAE96240E /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		4BB8C5699C305AB6EF133F5B6C82772E /* FIRInstanceIDKeyPairUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDKeyPairUtilities.h; path = Firebase/InstanceID/FIRInstanceIDKeyPairUtilities.h; sourceTree = "<group>"; };
@@ -1765,7 +1769,7 @@
 		504044F18EF498DFDB2782F5409E4183 /* FIRInstanceIDTokenStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDTokenStore.h; path = Firebase/InstanceID/FIRInstanceIDTokenStore.h; sourceTree = "<group>"; };
 		50539EBDCBDE032B9914B07831F890B6 /* STPCardValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCardValidator.h; path = Stripe/PublicHeaders/STPCardValidator.h; sourceTree = "<group>"; };
 		50560EDA9A5E818391DBD025AAA6AC98 /* STPFormEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPFormEncoder.m; path = Stripe/STPFormEncoder.m; sourceTree = "<group>"; };
-		5068F0A76F407836DB0BECB6FDE9DBC2 /* status.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = status.cc; path = util/status.cc; sourceTree = "<group>"; };
+		5068F0A76F407836DB0BECB6FDE9DBC2 /* status.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = status.cc; path = util/status.cc; sourceTree = "<group>"; };
 		50B3BFC37BB5E66900B187C6799E28A5 /* FIRInstanceIDCheckinService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDCheckinService.m; path = Firebase/InstanceID/FIRInstanceIDCheckinService.m; sourceTree = "<group>"; };
 		50C8B1AB4B46C09F3087D8C52A348A88 /* FIRDependency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRDependency.h; path = Firebase/Core/Private/FIRDependency.h; sourceTree = "<group>"; };
 		50DD5A3B4F3217BDCD5926CE28361495 /* GULNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetwork.h; path = GoogleUtilities/Network/Private/GULNetwork.h; sourceTree = "<group>"; };
@@ -1788,7 +1792,7 @@
 		55F80887C4EEC8F0FCC3A3D1BC2AD8EF /* FIRInstanceIDTokenDeleteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDTokenDeleteOperation.m; path = Firebase/InstanceID/FIRInstanceIDTokenDeleteOperation.m; sourceTree = "<group>"; };
 		56315F70643DFE4E76DFFA2183E93B04 /* FIRSecureTokenService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRSecureTokenService.m; path = Firebase/Auth/Source/FIRSecureTokenService.m; sourceTree = "<group>"; };
 		56555C3E7FEE0C58FCAA2B353FC33C9A /* FTuplePathValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTuplePathValue.m; path = Firebase/Database/Utilities/Tuples/FTuplePathValue.m; sourceTree = "<group>"; };
-		56754BEBF770D1B6DCD998A7FC845376 /* testutil.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = testutil.cc; path = util/testutil.cc; sourceTree = "<group>"; };
+		56754BEBF770D1B6DCD998A7FC845376 /* testutil.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = testutil.cc; path = util/testutil.cc; sourceTree = "<group>"; };
 		56789445562111113A4194E5807D1244 /* STPCoreTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCoreTableViewController.h; path = Stripe/PublicHeaders/STPCoreTableViewController.h; sourceTree = "<group>"; };
 		56A98FF699020D626CEC3FA37ECD4084 /* STPPaymentMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentMethod.h; path = Stripe/PublicHeaders/STPPaymentMethod.h; sourceTree = "<group>"; };
 		56F849F8E22FBC5FD54863502E20A1C6 /* FIROAuthProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIROAuthProvider.h; path = Firebase/Auth/Source/Public/FIROAuthProvider.h; sourceTree = "<group>"; };
@@ -1803,8 +1807,8 @@
 		57A75C43642851193DA3B28B01565072 /* STPFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPFile.m; path = Stripe/STPFile.m; sourceTree = "<group>"; };
 		57BB574FD721568E6932D79B74949A82 /* FIRSecureTokenResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRSecureTokenResponse.h; path = Firebase/Auth/Source/RPCs/FIRSecureTokenResponse.h; sourceTree = "<group>"; };
 		580B4C40E91B4FF99105E2195051D0AB /* FTupleOnDisconnect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTupleOnDisconnect.m; path = Firebase/Database/Utilities/Tuples/FTupleOnDisconnect.m; sourceTree = "<group>"; };
-		58737B844D26D60CA7E7E68D0EE85B33 /* Localizations */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizations; path = Stripe/Resources/Localizations; sourceTree = "<group>"; };
-		58E26C88CB4D064CBBDB44BD7A4F0EB7 /* Pods_QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QRCodeReader.framework; path = "Pods-QRCodeReader.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58737B844D26D60CA7E7E68D0EE85B33 /* Localizations */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Localizations; path = Stripe/Resources/Localizations; sourceTree = "<group>"; };
+		58E26C88CB4D064CBBDB44BD7A4F0EB7 /* Pods_QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5913936FC9D094C6A16994ECD13E99F6 /* FIRFacebookAuthProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRFacebookAuthProvider.m; path = Firebase/Auth/Source/AuthProviders/Facebook/FIRFacebookAuthProvider.m; sourceTree = "<group>"; };
 		595B166D6CD4CD86816E9EE0548EF232 /* STPPaymentMethodCardPresent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentMethodCardPresent.h; path = Stripe/PublicHeaders/STPPaymentMethodCardPresent.h; sourceTree = "<group>"; };
 		59CC652DFF18B2676ADD04144408D7A2 /* STPSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPSource.h; path = Stripe/PublicHeaders/STPSource.h; sourceTree = "<group>"; };
@@ -1814,7 +1818,7 @@
 		5A926022ECB74A86C7CEB99BDBEAF98A /* FIRApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRApp.h; path = Firebase/Core/Public/FIRApp.h; sourceTree = "<group>"; };
 		5ACBFEF9BFAEB4A927ADA65129D0E88F /* FPersistentConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPersistentConnection.m; path = Firebase/Database/Core/FPersistentConnection.m; sourceTree = "<group>"; };
 		5AD859AB0D1F5ECB0194252130AA26F3 /* FServerValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FServerValues.h; path = Firebase/Database/Core/FServerValues.h; sourceTree = "<group>"; };
-		5AE6E9D9F20742767F48C088D64847F9 /* histogram.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = histogram.cc; path = util/histogram.cc; sourceTree = "<group>"; };
+		5AE6E9D9F20742767F48C088D64847F9 /* histogram.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = histogram.cc; path = util/histogram.cc; sourceTree = "<group>"; };
 		5AEBD3F0A63358F112F3716790BE1D79 /* FIRAuthRPCResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthRPCResponse.h; path = Firebase/Auth/Source/RPCs/FIRAuthRPCResponse.h; sourceTree = "<group>"; };
 		5AED404F06A0B3BE47B1F88BD6FB92DB /* STPCardIOProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPCardIOProxy.m; path = Stripe/STPCardIOProxy.m; sourceTree = "<group>"; };
 		5AF63A018F7F0957BB8FE5BAC65F3D07 /* STPSourceEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPSourceEnums.h; path = Stripe/PublicHeaders/STPSourceEnums.h; sourceTree = "<group>"; };
@@ -1839,13 +1843,13 @@
 		600FDECAB5A362750A98F3CA48059314 /* STPPaymentMethodCardChecks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentMethodCardChecks.h; path = Stripe/PublicHeaders/STPPaymentMethodCardChecks.h; sourceTree = "<group>"; };
 		603E89CD843242E8D9E3952C0CF44DAC /* UIViewController+Stripe_NavigationItemProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Stripe_NavigationItemProxy.h"; path = "Stripe/UIViewController+Stripe_NavigationItemProxy.h"; sourceTree = "<group>"; };
 		605A6C1BA72DBC28D33C4F2C2267C38C /* STPFormTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPFormTextField.h; path = Stripe/STPFormTextField.h; sourceTree = "<group>"; };
-		612887A861762EE4E91B9B7A8E8422F5 /* dumpfile.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = dumpfile.cc; path = db/dumpfile.cc; sourceTree = "<group>"; };
+		612887A861762EE4E91B9B7A8E8422F5 /* dumpfile.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = dumpfile.cc; path = db/dumpfile.cc; sourceTree = "<group>"; };
 		615A62DA7A0FF336B8EC4341DC68682D /* FIRDeleteAccountRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRDeleteAccountRequest.m; path = Firebase/Auth/Source/RPCs/FIRDeleteAccountRequest.m; sourceTree = "<group>"; };
 		6196020713B1C21E74D3F4E81BC83182 /* FIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIndex.m; path = Firebase/Database/FIndex.m; sourceTree = "<group>"; };
 		62455F14BBDDB68580F5C4F3DB1F338E /* STPPaymentMethodCardWalletVisaCheckout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentMethodCardWalletVisaCheckout.m; path = Stripe/STPPaymentMethodCardWalletVisaCheckout.m; sourceTree = "<group>"; };
 		62FCF345C2C0B5FEB12E27F92984EB59 /* FStringUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FStringUtilities.h; path = Firebase/Database/Utilities/FStringUtilities.h; sourceTree = "<group>"; };
 		63291673C821C65F1E478A48F2C6A9BF /* FIRInstanceIDCheckinService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDCheckinService.h; path = Firebase/InstanceID/FIRInstanceIDCheckinService.h; sourceTree = "<group>"; };
-		63574D61C7B81EAD1FBF609117D6FE62 /* APLevelDB.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = APLevelDB.mm; path = "Firebase/Database/third_party/Wrap-leveldb/APLevelDB.mm"; sourceTree = "<group>"; };
+		63574D61C7B81EAD1FBF609117D6FE62 /* APLevelDB.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = APLevelDB.mm; path = "Firebase/Database/third_party/Wrap-leveldb/APLevelDB.mm"; sourceTree = "<group>"; };
 		6357650364B8DE5C7CBCEA5C24E2AF59 /* FIRInstanceIDLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDLogger.m; path = Firebase/InstanceID/FIRInstanceIDLogger.m; sourceTree = "<group>"; };
 		637D2F4C72C85943DBC7A1BBD8599E63 /* FCancelEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FCancelEvent.m; path = Firebase/Database/Core/View/FCancelEvent.m; sourceTree = "<group>"; };
 		63EB195A767AE1DAC6E8045FD71759C0 /* Stripe-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Stripe-prefix.pch"; sourceTree = "<group>"; };
@@ -1860,7 +1864,7 @@
 		6617C3AEE34D3426C8D4FE402FEC100D /* NSBundle+Stripe_AppName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+Stripe_AppName.h"; path = "Stripe/NSBundle+Stripe_AppName.h"; sourceTree = "<group>"; };
 		6620361AC0FD56B9FC1876DB83CA2F06 /* FIRAuthDataResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthDataResult.m; path = Firebase/Auth/Source/FIRAuthDataResult.m; sourceTree = "<group>"; };
 		667B5EE25AE356552CC2895C9D889244 /* STPPaymentMethodThreeDSecureUsage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentMethodThreeDSecureUsage.h; path = Stripe/PublicHeaders/STPPaymentMethodThreeDSecureUsage.h; sourceTree = "<group>"; };
-		667C7A632A43D5D855122DC1D67A8AED /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FirebaseInstanceID.framework; path = FirebaseInstanceID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		667C7A632A43D5D855122DC1D67A8AED /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirebaseInstanceID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		668E8C1890AE732615A73108266E0AB4 /* dumpfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dumpfile.h; path = include/leveldb/dumpfile.h; sourceTree = "<group>"; };
 		669D9C82E07F1D5D434039F274426CD8 /* FIROAuthCredential.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIROAuthCredential.h; path = Firebase/Auth/Source/Public/FIROAuthCredential.h; sourceTree = "<group>"; };
 		66D2A0300D564268E99D709BB5F395B4 /* FIRInstanceIDUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDUtilities.m; path = Firebase/InstanceID/FIRInstanceIDUtilities.m; sourceTree = "<group>"; };
@@ -1893,13 +1897,13 @@
 		6D5D65C569F0D58C70D35A22BD3CBBEE /* FRepo_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FRepo_Private.h; path = Firebase/Database/Core/FRepo_Private.h; sourceTree = "<group>"; };
 		6D65AD6F5B6BB0E8A2C4AAF8F690ADAC /* STPPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPromise.h; path = Stripe/STPPromise.h; sourceTree = "<group>"; };
 		6D9F4A19515E48540CF66F5ABF19FE4D /* FIRInstanceIDTokenInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDTokenInfo.h; path = Firebase/InstanceID/FIRInstanceIDTokenInfo.h; sourceTree = "<group>"; };
-		6DC9B1A1202F45327EB61A1B74A2401C /* cache.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = cache.cc; path = util/cache.cc; sourceTree = "<group>"; };
+		6DC9B1A1202F45327EB61A1B74A2401C /* cache.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = cache.cc; path = util/cache.cc; sourceTree = "<group>"; };
 		6E76408C3BC4B74E5070D4065B58069A /* STPSource+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPSource+Private.h"; path = "Stripe/STPSource+Private.h"; sourceTree = "<group>"; };
 		6EA333F2B114A0A966656C8AF82CCC5A /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		6EACFA71C95DF923D39531CA3D4F1B8C /* STPLegalEntityParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPLegalEntityParams.h; path = Stripe/PublicHeaders/STPLegalEntityParams.h; sourceTree = "<group>"; };
 		6EBACA9C9438BB05A66C1C567A79CEC4 /* STPPaymentIntentAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentIntentAction.m; path = Stripe/STPPaymentIntentAction.m; sourceTree = "<group>"; };
 		6EF12D98043AD46818BC05B68937CED8 /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
-		6F74AEE2082FF524E213C6FE773C9C86 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
+		6F74AEE2082FF524E213C6FE773C9C86 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_encode.c; sourceTree = "<group>"; };
 		6FBB07691979A7FC6A286859EF3EA9D8 /* STPCardValidationState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCardValidationState.h; path = Stripe/PublicHeaders/STPCardValidationState.h; sourceTree = "<group>"; };
 		70443F0947A31002A037600C664A94DB /* FIRPhoneAuthCredential.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRPhoneAuthCredential.m; path = Firebase/Auth/Source/AuthProviders/Phone/FIRPhoneAuthCredential.m; sourceTree = "<group>"; };
 		7082BD461E17D665FE7D1AA1ED6AE062 /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = nanopb.modulemap; sourceTree = "<group>"; };
@@ -1908,7 +1912,7 @@
 		71886775367B8E94314AD4A4E939559C /* FIRUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRUserInfo.h; path = Firebase/Auth/Source/Public/FIRUserInfo.h; sourceTree = "<group>"; };
 		71B1E9E2F7257E87A29C5E1C6446583C /* FIRAuthUIDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthUIDelegate.h; path = Firebase/Auth/Source/Public/FIRAuthUIDelegate.h; sourceTree = "<group>"; };
 		723F7F3AD8C63439D89D69073E4E10CB /* FIRInstanceIDLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDLogger.h; path = Firebase/InstanceID/FIRInstanceIDLogger.h; sourceTree = "<group>"; };
-		72DD809D611648FD9C65F9BD41BEF1B2 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FirebaseCore.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DD809D611648FD9C65F9BD41BEF1B2 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EAF0CBC961ADC29EC587F999CF696B /* atomic_pointer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = atomic_pointer.h; path = port/atomic_pointer.h; sourceTree = "<group>"; };
 		731C70EC62E5BB2F9923EEE801BE91E8 /* GULAppEnvironmentUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppEnvironmentUtil.h; path = GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.h; sourceTree = "<group>"; };
 		7374F2A4EDDA851D8D296B4D63A7D4F0 /* STPTelemetryClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPTelemetryClient.m; path = Stripe/STPTelemetryClient.m; sourceTree = "<group>"; };
@@ -1922,7 +1926,7 @@
 		75B839950F611F54BCD094F2257A825A /* FIRGetProjectConfigResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRGetProjectConfigResponse.h; path = Firebase/Auth/Source/RPCs/FIRGetProjectConfigResponse.h; sourceTree = "<group>"; };
 		764199F6144E891D3FED35AFF26A7E58 /* FIRGameCenterAuthCredential.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRGameCenterAuthCredential.h; path = Firebase/Auth/Source/AuthProviders/GameCenter/FIRGameCenterAuthCredential.h; sourceTree = "<group>"; };
 		766E88224BE8CBA94F531596B47292D6 /* STPSourceReceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPSourceReceiver.h; path = Stripe/PublicHeaders/STPSourceReceiver.h; sourceTree = "<group>"; };
-		768CD732CB4B6CE173FDD55F1B36C14A /* filter_block.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = filter_block.cc; path = table/filter_block.cc; sourceTree = "<group>"; };
+		768CD732CB4B6CE173FDD55F1B36C14A /* filter_block.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = filter_block.cc; path = table/filter_block.cc; sourceTree = "<group>"; };
 		76A08E3A9C4208FBD62EF450611746C7 /* stp_card_unionpay_zh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_unionpay_zh@2x.png"; path = "Stripe/Resources/Images/stp_card_unionpay_zh@2x.png"; sourceTree = "<group>"; };
 		76AA202F028B464062D1E8E01FD4BB2B /* FIRInstanceID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceID.m; path = Firebase/InstanceID/FIRInstanceID.m; sourceTree = "<group>"; };
 		76CB0DA1E6EFCA967CAA86CA0F829775 /* dbformat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dbformat.h; path = db/dbformat.h; sourceTree = "<group>"; };
@@ -1956,14 +1960,14 @@
 		7C20DD205316C6C5128DBDD61789D52B /* FIRComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponent.h; path = Firebase/Core/Private/FIRComponent.h; sourceTree = "<group>"; };
 		7C70639E9F07E65EA32C085DA50499F2 /* STPSourceParams+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPSourceParams+Private.h"; path = "Stripe/STPSourceParams+Private.h"; sourceTree = "<group>"; };
 		7C864F5657C0D2064F2B15BB9B6710FA /* stp_card_discover@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_discover@2x.png"; path = "Stripe/Resources/Images/stp_card_discover@2x.png"; sourceTree = "<group>"; };
-		7CA8CEEBE444901A4236837576AFD064 /* version_edit.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = version_edit.cc; path = db/version_edit.cc; sourceTree = "<group>"; };
+		7CA8CEEBE444901A4236837576AFD064 /* version_edit.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = version_edit.cc; path = db/version_edit.cc; sourceTree = "<group>"; };
 		7CDAE69FD25145F9B1242848658A46C1 /* NSDecimalNumber+Stripe_Currency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+Stripe_Currency.m"; path = "Stripe/NSDecimalNumber+Stripe_Currency.m"; sourceTree = "<group>"; };
 		7D320B124B894E294F7D81EB9D6B66DC /* STPStringUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPStringUtils.m; path = Stripe/STPStringUtils.m; sourceTree = "<group>"; };
 		7D769735072755092A8F1A7C6B5C000B /* FMaxNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMaxNode.h; path = Firebase/Database/FMaxNode.h; sourceTree = "<group>"; };
 		7D9990703158DBE958F1CC94DEA04006 /* STPPaymentOptionTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentOptionTableViewCell.m; path = Stripe/STPPaymentOptionTableViewCell.m; sourceTree = "<group>"; };
 		7DDB9900D89AE237732CE8515EF929D8 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7E1F4D3B8418A8C034F1A74BF14C01FC /* FIRAuthOperationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthOperationType.h; path = Firebase/Auth/Source/FIRAuthOperationType.h; sourceTree = "<group>"; };
-		7ECAEC1D37D2870732095AC04B8DC505 /* table_cache.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = table_cache.cc; path = db/table_cache.cc; sourceTree = "<group>"; };
+		7ECAEC1D37D2870732095AC04B8DC505 /* table_cache.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = table_cache.cc; path = db/table_cache.cc; sourceTree = "<group>"; };
 		7ED8F431AEC7EB821CF00FB02E88D321 /* STPSourceReceiver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPSourceReceiver.m; path = Stripe/STPSourceReceiver.m; sourceTree = "<group>"; };
 		7F4CA43C4D2251F1EE8239D3D1C793B7 /* FIRGitHubAuthProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRGitHubAuthProvider.m; path = Firebase/Auth/Source/AuthProviders/GitHub/FIRGitHubAuthProvider.m; sourceTree = "<group>"; };
 		801F9FE07E52934877B8C65F7F4DDB82 /* FUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FUtilities.m; path = Firebase/Database/Utilities/FUtilities.m; sourceTree = "<group>"; };
@@ -1981,7 +1985,7 @@
 		83C34D3661E2B9DB954E156EA73AD7D8 /* stp_card_discover@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_discover@3x.png"; path = "Stripe/Resources/Images/stp_card_discover@3x.png"; sourceTree = "<group>"; };
 		83DAB941750AA12A63E8C38D8FF3D9B1 /* stp_card_unionpay_zh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = stp_card_unionpay_zh.png; path = Stripe/Resources/Images/stp_card_unionpay_zh.png; sourceTree = "<group>"; };
 		83E97B0BC57B035DFC3ACC939A9E994A /* STPPostalCodeValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPostalCodeValidator.h; path = Stripe/STPPostalCodeValidator.h; sourceTree = "<group>"; };
-		841057E0F9C5C8EF082962AA7B7EE2F0 /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = leveldb.framework; path = "leveldb-library.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841057E0F9C5C8EF082962AA7B7EE2F0 /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841E2E88D20BDC39ACCA13AB29964798 /* FIRAuthRPCRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthRPCRequest.h; path = Firebase/Auth/Source/RPCs/FIRAuthRPCRequest.h; sourceTree = "<group>"; };
 		847D2B69A478F70C416DDCA6259B9073 /* FIRAuthDataResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthDataResult.h; path = Firebase/Auth/Source/Public/FIRAuthDataResult.h; sourceTree = "<group>"; };
 		84B639F90D77888D0108CA1AD9AB7524 /* STPBankAccount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPBankAccount.h; path = Stripe/PublicHeaders/STPBankAccount.h; sourceTree = "<group>"; };
@@ -1994,7 +1998,7 @@
 		86E25F7261DD4F30C95A059902AF2835 /* FPersistentConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPersistentConnection.h; path = Firebase/Database/Core/FPersistentConnection.h; sourceTree = "<group>"; };
 		870A90A8219347C35D1E6936E1F20AF8 /* FChange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FChange.m; path = Firebase/Database/Core/View/FChange.m; sourceTree = "<group>"; };
 		871540C5F58B9B2496CCEFB6B5BDE4F7 /* FConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FConstants.m; path = Firebase/Database/Constants/FConstants.m; sourceTree = "<group>"; };
-		8717E9BE4266449F0812AD116F4A82D8 /* Stripe.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Stripe.bundle; path = "Stripe-Stripe.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8717E9BE4266449F0812AD116F4A82D8 /* Stripe.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stripe.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8728FD6C3D81F76BFA01563512850E11 /* FIRInstanceIDVersionUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDVersionUtilities.m; path = Firebase/InstanceID/FIRInstanceIDVersionUtilities.m; sourceTree = "<group>"; };
 		876199C77D7C3B685B6336107800A68F /* FIRSignInWithGameCenterRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRSignInWithGameCenterRequest.m; path = Firebase/Auth/Source/RPCs/FIRSignInWithGameCenterRequest.m; sourceTree = "<group>"; };
 		8788D2162AA4CEA51ED6D9E4FAA385D3 /* FDataEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FDataEvent.m; path = Firebase/Database/Core/View/FDataEvent.m; sourceTree = "<group>"; };
@@ -2070,7 +2074,7 @@
 		948A79B1B8AEBCA54C31B492EFDB53E3 /* FWriteRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FWriteRecord.m; path = Firebase/Database/Core/FWriteRecord.m; sourceTree = "<group>"; };
 		94CBE8F836A94C2F6C65F6473DCFC533 /* FNamedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FNamedNode.h; path = Firebase/Database/FNamedNode.h; sourceTree = "<group>"; };
 		94EE9D136A0DF1375E0E78300B3C291C /* FIRAuthErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthErrors.h; path = Firebase/Auth/Source/Public/FIRAuthErrors.h; sourceTree = "<group>"; };
-		95012157448FD19D8222B1FDD3A913EF /* comparator.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = comparator.cc; path = util/comparator.cc; sourceTree = "<group>"; };
+		95012157448FD19D8222B1FDD3A913EF /* comparator.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = comparator.cc; path = util/comparator.cc; sourceTree = "<group>"; };
 		9522254531DE27695FA4A765D44CA934 /* FIRAuthDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthDispatcher.m; path = Firebase/Auth/Source/FIRAuthDispatcher.m; sourceTree = "<group>"; };
 		957218D8B854E83065578B08C1931B96 /* FIRPhoneAuthProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRPhoneAuthProvider.m; path = Firebase/Auth/Source/AuthProviders/Phone/FIRPhoneAuthProvider.m; sourceTree = "<group>"; };
 		9586EEF9E7B44783323F6D7DB7EDFE01 /* FIRInstanceIDCheckinStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDCheckinStore.m; path = Firebase/InstanceID/FIRInstanceIDCheckinStore.m; sourceTree = "<group>"; };
@@ -2095,7 +2099,7 @@
 		996D607D81448E5C1D9EC426332FA633 /* FChildChangeAccumulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FChildChangeAccumulator.h; path = Firebase/Database/Core/View/Filter/FChildChangeAccumulator.h; sourceTree = "<group>"; };
 		997844ECF03E0A2FE526EF0BE787A6A0 /* FChildEventRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FChildEventRegistration.h; path = Firebase/Database/Core/View/FChildEventRegistration.h; sourceTree = "<group>"; };
 		99D51BAD5C9A88317BB0CF6B3E2A406F /* FIRAuthSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthSettings.h; path = Firebase/Auth/Source/Public/FIRAuthSettings.h; sourceTree = "<group>"; };
-		99E609690D9C3A6CA52BE8C0DA0587B4 /* Stripe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Stripe.framework; path = Stripe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E609690D9C3A6CA52BE8C0DA0587B4 /* Stripe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stripe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A47A672F3D962A2F09F7E4EBD7BAC /* FirebaseCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FirebaseCore-Info.plist"; sourceTree = "<group>"; };
 		9A0FFAAD5D6D24CD89E431A5C7C467C2 /* STPPhoneNumberValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPhoneNumberValidator.h; path = Stripe/STPPhoneNumberValidator.h; sourceTree = "<group>"; };
 		9A1883C20300684590A25CC846185AAD /* FTrackedQueryManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTrackedQueryManager.h; path = Firebase/Database/Persistence/FTrackedQueryManager.h; sourceTree = "<group>"; };
@@ -2119,7 +2123,7 @@
 		9D7950980908E2C8725A27F2BE5F061C /* FIRMutableData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRMutableData.h; path = Firebase/Database/Public/FIRMutableData.h; sourceTree = "<group>"; };
 		9D8041A93F45344A1F7E0C645DAC36B5 /* stp_card_unionpay_template_en.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = stp_card_unionpay_template_en.png; path = Stripe/Resources/Images/stp_card_unionpay_template_en.png; sourceTree = "<group>"; };
 		9D8EB5731896FEF89B51D33C63E466A0 /* stp_card_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_error@3x.png"; path = "Stripe/Resources/Images/stp_card_error@3x.png"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0D88288DCBBB80081B8E9C70F12693 /* NSArray+Stripe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Stripe.h"; path = "Stripe/NSArray+Stripe.h"; sourceTree = "<group>"; };
 		9E29758B367D8488EEE272369FD617EB /* FIRCreateAuthURIRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCreateAuthURIRequest.h; path = Firebase/Auth/Source/RPCs/FIRCreateAuthURIRequest.h; sourceTree = "<group>"; };
 		9E975EAA9732A8DD7FABE842035F70B9 /* FIRBundleUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRBundleUtil.m; path = Firebase/Core/FIRBundleUtil.m; sourceTree = "<group>"; };
@@ -2136,7 +2140,7 @@
 		A11DE19B64675D9FF3B5B7D8F9E472FD /* FKeyIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKeyIndex.h; path = Firebase/Database/FKeyIndex.h; sourceTree = "<group>"; };
 		A126D83F9987AB613CBD25D1234CB1AD /* FirebaseCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FirebaseCore-dummy.m"; sourceTree = "<group>"; };
 		A1891C58EFDFF40DD93948F2E49E422A /* FIRErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRErrors.m; path = Firebase/Core/FIRErrors.m; sourceTree = "<group>"; };
-		A1AA1BBC45958324073BEAC12FBDCDA3 /* port_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = port_posix.cc; path = port/port_posix.cc; sourceTree = "<group>"; };
+		A1AA1BBC45958324073BEAC12FBDCDA3 /* port_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = port_posix.cc; path = port/port_posix.cc; sourceTree = "<group>"; };
 		A29C82F9E791F3E8EDA2D89AB26ECD92 /* FIREmailPasswordAuthCredential.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIREmailPasswordAuthCredential.m; path = Firebase/Auth/Source/AuthProviders/EmailPassword/FIREmailPasswordAuthCredential.m; sourceTree = "<group>"; };
 		A2BA8281C207F2DDB2802CAAF6F73BA3 /* testharness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = testharness.h; path = util/testharness.h; sourceTree = "<group>"; };
 		A2BF688E95F8D016DD9D0E97BD45A494 /* PKPayment+Stripe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PKPayment+Stripe.m"; path = "Stripe/PKPayment+Stripe.m"; sourceTree = "<group>"; };
@@ -2147,10 +2151,10 @@
 		A4BD236762C6C134CB8F01AFC050449F /* GULReachabilityChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULReachabilityChecker.m; path = GoogleUtilities/Reachability/GULReachabilityChecker.m; sourceTree = "<group>"; };
 		A4C6583EB1E6BB3CC3E59DF5155B0709 /* FIRAuthUserDefaultsStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthUserDefaultsStorage.m; path = Firebase/Auth/Source/FIRAuthUserDefaultsStorage.m; sourceTree = "<group>"; };
 		A54894D586E2B7495738C014A858F0DD /* Pods-QRCodeReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRCodeReader-dummy.m"; sourceTree = "<group>"; };
-		A59BFA47EF388F8157A53D6CD8CE7B43 /* filename.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = filename.cc; path = db/filename.cc; sourceTree = "<group>"; };
+		A59BFA47EF388F8157A53D6CD8CE7B43 /* filename.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = filename.cc; path = db/filename.cc; sourceTree = "<group>"; };
 		A5C2E074BBC9FD70E5F50DCC4565021D /* FIRInstanceIDDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDDefines.h; path = Firebase/InstanceID/FIRInstanceIDDefines.h; sourceTree = "<group>"; };
 		A622FAC9EC8D7DD5F588E20BFA4C6FFC /* FIRUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRUser.m; path = Firebase/Auth/Source/FIRUser.m; sourceTree = "<group>"; };
-		A652081CDC484FE761B6C75B252AA91D /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A652081CDC484FE761B6C75B252AA91D /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68AD76E4287F76AE5B1C93B22BEC464 /* FCacheNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCacheNode.h; path = Firebase/Database/Core/View/FCacheNode.h; sourceTree = "<group>"; };
 		A73B91016489D38C786B88C8C8DE53FF /* STPCoreScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCoreScrollViewController.h; path = Stripe/PublicHeaders/STPCoreScrollViewController.h; sourceTree = "<group>"; };
 		A7B20A0D977FF4BBB7CC02E8C60A5E6C /* STPSourceSEPADebitDetails.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPSourceSEPADebitDetails.m; path = Stripe/STPSourceSEPADebitDetails.m; sourceTree = "<group>"; };
@@ -2169,7 +2173,7 @@
 		AA15CB858C5760F327CE6960D902448B /* FValueIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FValueIndex.h; path = Firebase/Database/FValueIndex.h; sourceTree = "<group>"; };
 		AAA560FC0857BFEA5CBAED1A26A4173D /* STPAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPAPIClient.h; path = Stripe/PublicHeaders/STPAPIClient.h; sourceTree = "<group>"; };
 		AABC9781E57A6AF5826ADC2257926421 /* FIRDatabaseReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRDatabaseReference.h; path = Firebase/Database/Public/FIRDatabaseReference.h; sourceTree = "<group>"; };
-		AAF41456B20D7B57113A2F1F94E62AB8 /* write_batch.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = write_batch.cc; path = db/write_batch.cc; sourceTree = "<group>"; };
+		AAF41456B20D7B57113A2F1F94E62AB8 /* write_batch.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = write_batch.cc; path = db/write_batch.cc; sourceTree = "<group>"; };
 		AB443DB7B515D9382BAF406F382A3102 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		AC55FAEFBF6190AB68C3BCDC11A8836F /* FOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FOperation.h; path = Firebase/Database/Core/Operation/FOperation.h; sourceTree = "<group>"; };
 		AC78D5D0F5DCD9CFD1E9D473573428D8 /* stp_card_applepay@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_applepay@3x.png"; path = "Stripe/Resources/Images/stp_card_applepay@3x.png"; sourceTree = "<group>"; };
@@ -2200,7 +2204,7 @@
 		B0C70B027A7CBF80D2FD4E7129C0E260 /* port.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = port.h; path = port/port.h; sourceTree = "<group>"; };
 		B0DFBB85A9AA27922274E951063C2E62 /* FIRAuthErrorUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthErrorUtils.m; path = Firebase/Auth/Source/FIRAuthErrorUtils.m; sourceTree = "<group>"; };
 		B0F1AD1F8FADD0D9CDC5E7AC03422408 /* Stripe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Stripe-umbrella.h"; sourceTree = "<group>"; };
-		B112AC47B48A2F8860B15EEA978E86CA /* dbformat.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = dbformat.cc; path = db/dbformat.cc; sourceTree = "<group>"; };
+		B112AC47B48A2F8860B15EEA978E86CA /* dbformat.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = dbformat.cc; path = db/dbformat.cc; sourceTree = "<group>"; };
 		B164FC4834CAC483BE8E23F24047C8E8 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B1B59E4E333731C7F3D42666C0217FFA /* histogram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = histogram.h; path = util/histogram.h; sourceTree = "<group>"; };
 		B1FB934BE2F02A24528DF2F7F2EA058F /* STPValidatedTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPValidatedTextField.h; path = Stripe/STPValidatedTextField.h; sourceTree = "<group>"; };
@@ -2216,7 +2220,7 @@
 		B41A86808A2B1B8E49FC16F13584FC4E /* FMaxNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMaxNode.m; path = Firebase/Database/FMaxNode.m; sourceTree = "<group>"; };
 		B44F4954969F00E4363BAD396F9542C9 /* FTupleFirebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTupleFirebase.h; path = Firebase/Database/Utilities/Tuples/FTupleFirebase.h; sourceTree = "<group>"; };
 		B46F8AB5732A202073DBF5ED172B96A5 /* FIRInstanceIDCheckinPreferences.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDCheckinPreferences.m; path = Firebase/InstanceID/FIRInstanceIDCheckinPreferences.m; sourceTree = "<group>"; };
-		B477EB98E91C1D534D4715FC7D76DEA6 /* logging.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = logging.cc; path = util/logging.cc; sourceTree = "<group>"; };
+		B477EB98E91C1D534D4715FC7D76DEA6 /* logging.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = logging.cc; path = util/logging.cc; sourceTree = "<group>"; };
 		B49879EB46ADF9A394DDA5FEA9397C2D /* NSError+FIRInstanceID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+FIRInstanceID.m"; path = "Firebase/InstanceID/NSError+FIRInstanceID.m"; sourceTree = "<group>"; };
 		B4C04E1CA8409435659BBDB7BA134704 /* GULAppEnvironmentUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULAppEnvironmentUtil.m; path = GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.m; sourceTree = "<group>"; };
 		B4D0B121361B8864D8E21C30396C4D0E /* FViewProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FViewProcessor.m; path = Firebase/Database/FViewProcessor.m; sourceTree = "<group>"; };
@@ -2242,7 +2246,7 @@
 		B9805FF5A58237DEB8E9A15CFB9AAC4B /* GULUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULUserDefaults.h; path = GoogleUtilities/UserDefaults/Private/GULUserDefaults.h; sourceTree = "<group>"; };
 		B98E4231BAE8C02FA6CD7F788E486366 /* FIRSignUpNewUserResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRSignUpNewUserResponse.h; path = Firebase/Auth/Source/RPCs/FIRSignUpNewUserResponse.h; sourceTree = "<group>"; };
 		B98F8E203473B4FF4AB6E45A6F1EEE17 /* leveldb-library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "leveldb-library-umbrella.h"; sourceTree = "<group>"; };
-		B996FCE1F5C19F4049D1BA4253B53937 /* memtable.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = memtable.cc; path = db/memtable.cc; sourceTree = "<group>"; };
+		B996FCE1F5C19F4049D1BA4253B53937 /* memtable.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = memtable.cc; path = db/memtable.cc; sourceTree = "<group>"; };
 		B9AD11B8D28495D6A8468E10EA05CB46 /* STPPaymentCardTextFieldViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentCardTextFieldViewModel.h; path = Stripe/STPPaymentCardTextFieldViewModel.h; sourceTree = "<group>"; };
 		B9C2FEC7EE5A626ED8216D681EFFD978 /* FIRTwitterAuthCredential.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRTwitterAuthCredential.h; path = Firebase/Auth/Source/AuthProviders/Twitter/FIRTwitterAuthCredential.h; sourceTree = "<group>"; };
 		BA6ECE33EE3215F193412BAFD1964A61 /* FIRAnalyticsConfiguration+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIRAnalyticsConfiguration+Internal.h"; path = "Firebase/Core/Private/FIRAnalyticsConfiguration+Internal.h"; sourceTree = "<group>"; };
@@ -2250,7 +2254,7 @@
 		BB2F9D389AF5471F654AABF96775BFD6 /* STPCardParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPCardParams.m; path = Stripe/STPCardParams.m; sourceTree = "<group>"; };
 		BB3656F1DFB43ED968160C8674622F31 /* STPPaymentContextAmountModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentContextAmountModel.h; path = Stripe/STPPaymentContextAmountModel.h; sourceTree = "<group>"; };
 		BB4693D4DCF7722A37B707EE7FEB0642 /* STPCoreTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPCoreTableViewController.m; path = Stripe/STPCoreTableViewController.m; sourceTree = "<group>"; };
-		BB483300C979DBED98FC479C1FB931A5 /* port_posix_sse.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = port_posix_sse.cc; path = port/port_posix_sse.cc; sourceTree = "<group>"; };
+		BB483300C979DBED98FC479C1FB931A5 /* port_posix_sse.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = port_posix_sse.cc; path = port/port_posix_sse.cc; sourceTree = "<group>"; };
 		BB70891B1D8B485895E3B2E56BC9A0FE /* UIView+Stripe_SafeAreaBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Stripe_SafeAreaBounds.h"; path = "Stripe/UIView+Stripe_SafeAreaBounds.h"; sourceTree = "<group>"; };
 		BBA807409E6CCE8476DB7B5465B9ACAA /* FStringUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FStringUtilities.m; path = Firebase/Database/Utilities/FStringUtilities.m; sourceTree = "<group>"; };
 		BBB59EE94951A9A025912662B13D6DF4 /* stp_card_unionpay_zh@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_unionpay_zh@3x.png"; path = "Stripe/Resources/Images/stp_card_unionpay_zh@3x.png"; sourceTree = "<group>"; };
@@ -2259,7 +2263,7 @@
 		BCDAED0023FFEE488F47E999C49B4B84 /* FListenComplete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FListenComplete.h; path = Firebase/Database/FListenComplete.h; sourceTree = "<group>"; };
 		BD0A400572B2756F95C4343B8CC26D0D /* Fabric+FABKits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Fabric+FABKits.h"; path = "Stripe/Fabric+FABKits.h"; sourceTree = "<group>"; };
 		BD27D17AE9925DB71784AF78C360C3EA /* FIREmailLinkSignInRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIREmailLinkSignInRequest.h; path = Firebase/Auth/Source/RPCs/FIREmailLinkSignInRequest.h; sourceTree = "<group>"; };
-		BD5E95B5C2822063267C3B74A01406AD /* builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = builder.cc; path = db/builder.cc; sourceTree = "<group>"; };
+		BD5E95B5C2822063267C3B74A01406AD /* builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = builder.cc; path = db/builder.cc; sourceTree = "<group>"; };
 		BDC9D7816552C049C34D55CEC29DAB8A /* FChildEventRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FChildEventRegistration.m; path = Firebase/Database/Core/View/FChildEventRegistration.m; sourceTree = "<group>"; };
 		BE05F302533EE06BBA4EC3146D20EBFD /* stp_card_visa_template.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = stp_card_visa_template.png; path = Stripe/Resources/Images/stp_card_visa_template.png; sourceTree = "<group>"; };
 		BE47401F103AB8623D8E32ED7AD43C10 /* STPPaymentConfiguration+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPPaymentConfiguration+Private.h"; path = "Stripe/STPPaymentConfiguration+Private.h"; sourceTree = "<group>"; };
@@ -2287,7 +2291,7 @@
 		C27FDD75F59E20CB3EFB48CCD5808048 /* GULAppDelegateSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppDelegateSwizzler.h; path = GoogleUtilities/AppDelegateSwizzler/Private/GULAppDelegateSwizzler.h; sourceTree = "<group>"; };
 		C2A1BF8BEFC386807452F4EAF7FCEB8F /* stp_card_jcb_template.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = stp_card_jcb_template.png; path = Stripe/Resources/Images/stp_card_jcb_template.png; sourceTree = "<group>"; };
 		C2F247167AC0717ABE64CF6FBFF7D04B /* FIRAuthAppDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthAppDelegateProxy.m; path = Firebase/Auth/Source/FIRAuthAppDelegateProxy.m; sourceTree = "<group>"; };
-		C31DC78F3AD9787C1412C30DAD8963C7 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleUtilities.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31DC78F3AD9787C1412C30DAD8963C7 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33C40B255B644D38EE857DCD8205DA0 /* FIRIMessageCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRIMessageCode.h; path = Firebase/InstanceID/FIRIMessageCode.h; sourceTree = "<group>"; };
 		C3D8C25D504C478C4765054EC7A8D2C6 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = Stripe/Fabric.h; sourceTree = "<group>"; };
 		C404CA413BB893285E05B385A758DE03 /* FIRActionCodeSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRActionCodeSettings.m; path = Firebase/Auth/Source/FIRActionCodeSettings.m; sourceTree = "<group>"; };
@@ -2340,9 +2344,9 @@
 		CD8F2367E2350A43B2D3084DD9DB04CF /* FViewProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FViewProcessor.h; path = Firebase/Database/FViewProcessor.h; sourceTree = "<group>"; };
 		CDD1BD06EF170DA88B6B8F6F4B1F934D /* STPCustomer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPCustomer.m; path = Stripe/STPCustomer.m; sourceTree = "<group>"; };
 		CDF10B79724EC75D11F758DDCB1A2B69 /* FIRInstanceIDTokenOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDTokenOperation.h; path = Firebase/InstanceID/FIRInstanceIDTokenOperation.h; sourceTree = "<group>"; };
-		CE2B067F638CEE1FE25B12A032179F83 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2B067F638CEE1FE25B12A032179F83 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE35C4974A5292518482D372B8839626 /* STPStringUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPStringUtils.h; path = Stripe/STPStringUtils.h; sourceTree = "<group>"; };
-		CE4758E04BF0DABCB31522FCE2AE4715 /* version_set.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = version_set.cc; path = db/version_set.cc; sourceTree = "<group>"; };
+		CE4758E04BF0DABCB31522FCE2AE4715 /* version_set.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = version_set.cc; path = db/version_set.cc; sourceTree = "<group>"; };
 		CECF6C7B13C06FA7B5D31C3B5E7FE56E /* STPAddCardViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPAddCardViewController.h; path = Stripe/PublicHeaders/STPAddCardViewController.h; sourceTree = "<group>"; };
 		CF045A6646B14522964823368499E167 /* FIRAuthAppDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthAppDelegateProxy.h; path = Firebase/Auth/Source/FIRAuthAppDelegateProxy.h; sourceTree = "<group>"; };
 		CF0E5F3F05C6B9781D768490092253CA /* STPRedirectContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPRedirectContext.m; path = Stripe/STPRedirectContext.m; sourceTree = "<group>"; };
@@ -2380,7 +2384,7 @@
 		D60D7C4474E0C82B0CD2A96339EF39DA /* FIndexedNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIndexedNode.h; path = Firebase/Database/Snapshot/FIndexedNode.h; sourceTree = "<group>"; };
 		D63C6138B68CD22B791EA533CB420AED /* FIRDeleteAccountResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRDeleteAccountResponse.m; path = Firebase/Auth/Source/RPCs/FIRDeleteAccountResponse.m; sourceTree = "<group>"; };
 		D65979E32CE1C401CF951C261CCDC19C /* UIView+Stripe_FirstResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Stripe_FirstResponder.m"; path = "Stripe/UIView+Stripe_FirstResponder.m"; sourceTree = "<group>"; };
-		D6E5548C49828D777181E54BC32339F3 /* db_iter.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = db_iter.cc; path = db/db_iter.cc; sourceTree = "<group>"; };
+		D6E5548C49828D777181E54BC32339F3 /* db_iter.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = db_iter.cc; path = db/db_iter.cc; sourceTree = "<group>"; };
 		D6E9A85824E891CD4E7632979401CA0D /* STPAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPAddress.m; path = Stripe/STPAddress.m; sourceTree = "<group>"; };
 		D6FAF0097ECF60D10723A724E5E5D9EA /* FIROptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIROptions.h; path = Firebase/Core/Public/FIROptions.h; sourceTree = "<group>"; };
 		D7B671FE9DDDA80E704E854846FA20FC /* STPSourceOwner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPSourceOwner.h; path = Stripe/PublicHeaders/STPSourceOwner.h; sourceTree = "<group>"; };
@@ -2402,22 +2406,22 @@
 		DA9207D0D70F95C45AE42E9231489F10 /* FParsedUrl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FParsedUrl.m; path = Firebase/Database/Utilities/FParsedUrl.m; sourceTree = "<group>"; };
 		DA93FB1DF7F3D4C4E2114D424D44BBBE /* STPPhoneNumberValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPhoneNumberValidator.m; path = Stripe/STPPhoneNumberValidator.m; sourceTree = "<group>"; };
 		DAEA4E91A70E474AC51FDCA03351C988 /* FSyncPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSyncPoint.m; path = Firebase/Database/Core/FSyncPoint.m; sourceTree = "<group>"; };
-		DB0CF659619D61060F64B1409BD1DDA6 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = Stripe/Resources/Images; sourceTree = "<group>"; };
+		DB0CF659619D61060F64B1409BD1DDA6 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Images; path = Stripe/Resources/Images; sourceTree = "<group>"; };
 		DB0ECEF22F7A47DF1DDE6DAE2FA88C02 /* FLevelDBStorageEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLevelDBStorageEngine.m; path = Firebase/Database/Persistence/FLevelDBStorageEngine.m; sourceTree = "<group>"; };
 		DB58F08DFEA5CA840BF7847F2AE98D22 /* FIRDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRDatabase.m; path = Firebase/Database/Api/FIRDatabase.m; sourceTree = "<group>"; };
 		DB70F90470B9311B8E0506BCEA866AA2 /* FIRSecureTokenResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRSecureTokenResponse.m; path = Firebase/Auth/Source/RPCs/FIRSecureTokenResponse.m; sourceTree = "<group>"; };
 		DBC04169B1B6B22DF6A2F68C8A074AF6 /* STPSourceRedirect+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPSourceRedirect+Private.h"; path = "Stripe/STPSourceRedirect+Private.h"; sourceTree = "<group>"; };
-		DBC409ECEE62F89909FC78A0AFADA810 /* block_builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = block_builder.cc; path = table/block_builder.cc; sourceTree = "<group>"; };
+		DBC409ECEE62F89909FC78A0AFADA810 /* block_builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = block_builder.cc; path = table/block_builder.cc; sourceTree = "<group>"; };
 		DC76C3C0372E14F442F50D482BFCEC80 /* STPPaymentMethodCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentMethodCard.m; path = Stripe/STPPaymentMethodCard.m; sourceTree = "<group>"; };
 		DC99580824979AA66E7CD9AB8012D590 /* STPShippingMethodTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPShippingMethodTableViewCell.h; path = Stripe/STPShippingMethodTableViewCell.h; sourceTree = "<group>"; };
-		DCB4550275D64975225A19525A395907 /* filter_policy.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = filter_policy.cc; path = util/filter_policy.cc; sourceTree = "<group>"; };
+		DCB4550275D64975225A19525A395907 /* filter_policy.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = filter_policy.cc; path = util/filter_policy.cc; sourceTree = "<group>"; };
 		DCC9AD1744595DC6AD5C5C4AA448D357 /* FirebaseAuth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseAuth.xcconfig; sourceTree = "<group>"; };
 		DD0481FC6BB4D90FD180F6B8750C45A6 /* FTupleTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTupleTransaction.h; path = Firebase/Database/Utilities/Tuples/FTupleTransaction.h; sourceTree = "<group>"; };
 		DD6203AB0C97053EC023C1E11EDFE2EA /* FPendingPut.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPendingPut.m; path = Firebase/Database/Persistence/FPendingPut.m; sourceTree = "<group>"; };
 		DD6D8498E6A5FA37899B663B820D457B /* UIView+Stripe_FirstResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Stripe_FirstResponder.h"; path = "Stripe/UIView+Stripe_FirstResponder.h"; sourceTree = "<group>"; };
 		DE2D3521E28451486819ABADC5D08289 /* FTrackedQueryManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTrackedQueryManager.m; path = Firebase/Database/Persistence/FTrackedQueryManager.m; sourceTree = "<group>"; };
 		DE3B76D8502FEF043AEAAD3834700171 /* stp_card_unionpay_template_zh@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_unionpay_template_zh@3x.png"; path = "Stripe/Resources/Images/stp_card_unionpay_template_zh@3x.png"; sourceTree = "<group>"; };
-		DE78020D91709FB7E9B2DFD9CCA6358C /* format.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = format.cc; path = table/format.cc; sourceTree = "<group>"; };
+		DE78020D91709FB7E9B2DFD9CCA6358C /* format.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = format.cc; path = table/format.cc; sourceTree = "<group>"; };
 		DF0B7099D7A3BCFE6BC072676267D4BF /* stp_card_form_amex_cvc.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = stp_card_form_amex_cvc.png; path = Stripe/Resources/Images/stp_card_form_amex_cvc.png; sourceTree = "<group>"; };
 		DF0FD63B1DB61CE14F504A782C1A1E49 /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
 		E07016C5BFF14D5AEE564B88069F0483 /* FIRAuthAPNSTokenType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthAPNSTokenType.h; path = Firebase/Auth/Source/Public/FIRAuthAPNSTokenType.h; sourceTree = "<group>"; };
@@ -2442,9 +2446,9 @@
 		E3A7CBC98BC940AC36E81C5D3D0C27F3 /* db_iter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = db_iter.h; path = db/db_iter.h; sourceTree = "<group>"; };
 		E3D96848A0A37BEBCF9E84294D2345BC /* stp_card_mastercard_template@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_mastercard_template@3x.png"; path = "Stripe/Resources/Images/stp_card_mastercard_template@3x.png"; sourceTree = "<group>"; };
 		E3E44E39983153446609D6699B8BEBA7 /* STPGenericStripeObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPGenericStripeObject.m; path = Stripe/STPGenericStripeObject.m; sourceTree = "<group>"; };
-		E45B8EC61AF1A1C204E14C9F3AFE32D4 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
+		E45B8EC61AF1A1C204E14C9F3AFE32D4 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_common.c; sourceTree = "<group>"; };
 		E46E1BEBF785F7DFF53B95846A702CB4 /* FIRFederatedAuthProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRFederatedAuthProvider.h; path = Firebase/Auth/Source/Public/FIRFederatedAuthProvider.h; sourceTree = "<group>"; };
-		E496D2D03617A9D827ECA1BB048D3E63 /* c.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = c.cc; path = db/c.cc; sourceTree = "<group>"; };
+		E496D2D03617A9D827ECA1BB048D3E63 /* c.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = c.cc; path = db/c.cc; sourceTree = "<group>"; };
 		E5066B0944375D9BEA192B813A7874BC /* posix_logger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = posix_logger.h; path = util/posix_logger.h; sourceTree = "<group>"; };
 		E55BF8813440B7C04752D8E91FD7E1A4 /* FirebaseAuthInterop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseAuthInterop.xcconfig; sourceTree = "<group>"; };
 		E5D6D10E2668D5110E41552BA2235FB2 /* STPBankAccountParams+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPBankAccountParams+Private.h"; path = "Stripe/STPBankAccountParams+Private.h"; sourceTree = "<group>"; };
@@ -2452,10 +2456,10 @@
 		E622E19BC81EFE8C17A23050695093BB /* FEventEmitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEventEmitter.h; path = Firebase/Database/Utilities/FEventEmitter.h; sourceTree = "<group>"; };
 		E630FB053D4C3D4087F279E02118C6D6 /* STPPaymentCardTextFieldViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentCardTextFieldViewModel.m; path = Stripe/STPPaymentCardTextFieldViewModel.m; sourceTree = "<group>"; };
 		E6F188302E27F959A22D9CF0D47045F1 /* FTreeSortedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTreeSortedDictionary.m; path = Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FTreeSortedDictionary.m; sourceTree = "<group>"; };
-		E706E9D2AD302B25EF95830FAD41729F /* coding.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = coding.cc; path = util/coding.cc; sourceTree = "<group>"; };
+		E706E9D2AD302B25EF95830FAD41729F /* coding.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = coding.cc; path = util/coding.cc; sourceTree = "<group>"; };
 		E747C331A57FC3EF778F9201B3A91F72 /* FAckUserWrite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAckUserWrite.m; path = Firebase/Database/Core/Operation/FAckUserWrite.m; sourceTree = "<group>"; };
-		E7491E26D971ED000A1487FB187E7B20 /* two_level_iterator.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = two_level_iterator.cc; path = table/two_level_iterator.cc; sourceTree = "<group>"; };
-		E761AE5E728272DF4808B1243583AB58 /* crc32c.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = crc32c.cc; path = util/crc32c.cc; sourceTree = "<group>"; };
+		E7491E26D971ED000A1487FB187E7B20 /* two_level_iterator.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = two_level_iterator.cc; path = table/two_level_iterator.cc; sourceTree = "<group>"; };
+		E761AE5E728272DF4808B1243583AB58 /* crc32c.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = crc32c.cc; path = util/crc32c.cc; sourceTree = "<group>"; };
 		E7D19FC69BD17127C262991FC6C6E24D /* FIRAppAssociationRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAppAssociationRegistration.h; path = Firebase/Core/Private/FIRAppAssociationRegistration.h; sourceTree = "<group>"; };
 		E827A40D700ACAF1BF3BF2AC0EF071B9 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E8392906E26B70484CC23979F955C301 /* STPAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPAddress.h; path = Stripe/PublicHeaders/STPAddress.h; sourceTree = "<group>"; };
@@ -2483,7 +2487,7 @@
 		EBACFFD0ECF2E6FAF8CADD5ED83AAD73 /* STPPaymentContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentContext.h; path = Stripe/PublicHeaders/STPPaymentContext.h; sourceTree = "<group>"; };
 		EBC2DE331AB652AC867AD87F9A6A2848 /* FIRUserMetadata_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRUserMetadata_Internal.h; path = Firebase/Auth/Source/FIRUserMetadata_Internal.h; sourceTree = "<group>"; };
 		EBD191CA69929AADFDB945BED6B7DB30 /* FIRAuthWebUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthWebUtils.h; path = Firebase/Auth/Source/FIRAuthWebUtils.h; sourceTree = "<group>"; };
-		EBD385749E4D7D7E8769C088C9A3F5BA /* stp_test_upload_image.jpeg */ = {isa = PBXFileReference; includeInIndex = 1; name = stp_test_upload_image.jpeg; path = Stripe/Resources/Images/stp_test_upload_image.jpeg; sourceTree = "<group>"; };
+		EBD385749E4D7D7E8769C088C9A3F5BA /* stp_test_upload_image.jpeg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; name = stp_test_upload_image.jpeg; path = Stripe/Resources/Images/stp_test_upload_image.jpeg; sourceTree = "<group>"; };
 		EBD4F6B37B78F8FADB7E0A46F7442171 /* STPPaymentIntentParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentIntentParams.m; path = Stripe/STPPaymentIntentParams.m; sourceTree = "<group>"; };
 		EC1E20C02967CD31536277DCDB6A85E0 /* FIRInstanceIDKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDKeychain.h; path = Firebase/InstanceID/FIRInstanceIDKeychain.h; sourceTree = "<group>"; };
 		EC397C56D3F3D6F99B20B6575C509C8D /* FEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEvent.h; path = Firebase/Database/Core/View/FEvent.h; sourceTree = "<group>"; };
@@ -2500,7 +2504,7 @@
 		EE4404AE73EEDD03A7D493C43FF3D30F /* stp_card_form_front@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_form_front@3x.png"; path = "Stripe/Resources/Images/stp_card_form_front@3x.png"; sourceTree = "<group>"; };
 		EEB1D649A46F868D2560FA44B1672E4B /* STPUserInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPUserInformation.h; path = Stripe/PublicHeaders/STPUserInformation.h; sourceTree = "<group>"; };
 		EF062D6CB82752913AA61D434EAA26E5 /* c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = c.h; path = include/leveldb/c.h; sourceTree = "<group>"; };
-		EF099128CA98285B47F808E8206B735E /* merger.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = merger.cc; path = table/merger.cc; sourceTree = "<group>"; };
+		EF099128CA98285B47F808E8206B735E /* merger.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = merger.cc; path = table/merger.cc; sourceTree = "<group>"; };
 		EF0F7729006CA90747B3A34BE172ABC1 /* table_builder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = table_builder.h; path = include/leveldb/table_builder.h; sourceTree = "<group>"; };
 		EF234255E59C66613B8F72798104D5CC /* FIRAuthCredential_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthCredential_Internal.h; path = Firebase/Auth/Source/FIRAuthCredential_Internal.h; sourceTree = "<group>"; };
 		EF2F054E35C8E66B0F7682D37BF4A6AF /* FConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FConstants.h; path = Firebase/Database/Constants/FConstants.h; sourceTree = "<group>"; };
@@ -2513,7 +2517,7 @@
 		F02AAF3B89F2831F605F1E402F0BE91A /* FNextPushId.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNextPushId.m; path = Firebase/Database/Utilities/FNextPushId.m; sourceTree = "<group>"; };
 		F048DECEE66ED546EAC01754F8E00987 /* FIRInstanceIDKeyPair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDKeyPair.m; path = Firebase/InstanceID/FIRInstanceIDKeyPair.m; sourceTree = "<group>"; };
 		F090BA64F8CBD14B63B70223D37737A3 /* FIRSendVerificationCodeResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRSendVerificationCodeResponse.m; path = Firebase/Auth/Source/RPCs/FIRSendVerificationCodeResponse.m; sourceTree = "<group>"; };
-		F0965B67668548EB8F8421A6FC6F468A /* block.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = block.cc; path = table/block.cc; sourceTree = "<group>"; };
+		F0965B67668548EB8F8421A6FC6F468A /* block.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = block.cc; path = table/block.cc; sourceTree = "<group>"; };
 		F0B5B8F3F27D6075E46CEAEFA5F196B0 /* stp_card_cvc@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_cvc@2x.png"; path = "Stripe/Resources/Images/stp_card_cvc@2x.png"; sourceTree = "<group>"; };
 		F0C8DFE36714D47DE312321AFA5ED814 /* STPCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPCard.m; path = Stripe/STPCard.m; sourceTree = "<group>"; };
 		F14EAB32E975AC768EC787F93909D10D /* FIRAuthAPNSToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthAPNSToken.m; path = Firebase/Auth/Source/FIRAuthAPNSToken.m; sourceTree = "<group>"; };
@@ -2531,7 +2535,7 @@
 		F525E65F0887249F8CB5A7F5BAD3E505 /* FIRInstanceIDCheckinPreferences_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDCheckinPreferences_Private.h; path = Firebase/InstanceID/FIRInstanceIDCheckinPreferences_Private.h; sourceTree = "<group>"; };
 		F56DB728CDE92802B6C282DB49EA9A8A /* FIRPhoneAuthProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRPhoneAuthProvider.h; path = Firebase/Auth/Source/Public/FIRPhoneAuthProvider.h; sourceTree = "<group>"; };
 		F5784B1763D224B32333C3B921E774EE /* UITableViewCell+Stripe_Borders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+Stripe_Borders.h"; path = "Stripe/UITableViewCell+Stripe_Borders.h"; sourceTree = "<group>"; };
-		F57BF812C8B04DCE1403E03A873C3A59 /* env.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = env.cc; path = util/env.cc; sourceTree = "<group>"; };
+		F57BF812C8B04DCE1403E03A873C3A59 /* env.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = env.cc; path = util/env.cc; sourceTree = "<group>"; };
 		F598A650C7A305DC6A8811B55A26E107 /* FLLRBEmptyNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLLRBEmptyNode.m; path = Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBEmptyNode.m; sourceTree = "<group>"; };
 		F5B9AC586D80BA18C1B33815C92F35FC /* FIRTransactionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRTransactionResult.h; path = Firebase/Database/Public/FIRTransactionResult.h; sourceTree = "<group>"; };
 		F688BA0298295861B860FAAF3EC6697D /* FIRDeleteAccountResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRDeleteAccountResponse.h; path = Firebase/Auth/Source/RPCs/FIRDeleteAccountResponse.h; sourceTree = "<group>"; };
@@ -2551,7 +2555,7 @@
 		FA0BA930C5AAD45E6595642794B3FBC7 /* FIRSetAccountInfoResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRSetAccountInfoResponse.h; path = Firebase/Auth/Source/RPCs/FIRSetAccountInfoResponse.h; sourceTree = "<group>"; };
 		FA1C279850BD591E8992E8797D1CD9FC /* FTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTree.h; path = Firebase/Database/Core/Utilities/FTree.h; sourceTree = "<group>"; };
 		FA310748847F97C25A29B01CB470BAF8 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		FA43471C5C31C247B47365C5C7537FFA /* options.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = options.cc; path = util/options.cc; sourceTree = "<group>"; };
+		FA43471C5C31C247B47365C5C7537FFA /* options.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = options.cc; path = util/options.cc; sourceTree = "<group>"; };
 		FA688B0B450C2A788CDCCE40EC35251B /* FIRInstanceIDBackupExcludedPlist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDBackupExcludedPlist.m; path = Firebase/InstanceID/FIRInstanceIDBackupExcludedPlist.m; sourceTree = "<group>"; };
 		FB7E3E1DBC3821043EB27C9A71702C56 /* FIROAuthCredential_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIROAuthCredential_Internal.h; path = Firebase/Auth/Source/AuthProviders/OAuth/FIROAuthCredential_Internal.h; sourceTree = "<group>"; };
 		FBB44B0C9474FA3293D1DE6D2FB38AE0 /* stp_card_diners@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_diners@2x.png"; path = "Stripe/Resources/Images/stp_card_diners@2x.png"; sourceTree = "<group>"; };
@@ -2735,7 +2739,6 @@
 				455F826C64C839913C66983AED7DB9D6 /* FIRVersion.m */,
 				A12A6E2C5E38F12489FEFAD14EC097F2 /* Support Files */,
 			);
-			name = FirebaseCore;
 			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
@@ -2761,7 +2764,6 @@
 				10E4F1262D67CC0253BB61131027F26F /* Validation.swift */,
 				C71594A3896A137378C230D59D8DC6A7 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -2967,7 +2969,6 @@
 				A3393625C903C0981C4B3AE75294D2E0 /* NSData+FIRBase64.m */,
 				35DFE50FC1EEBF8260C7B7164F63E1F5 /* Support Files */,
 			);
-			name = FirebaseAuth;
 			path = FirebaseAuth;
 			sourceTree = "<group>";
 		};
@@ -3034,7 +3035,6 @@
 				9881A2E53031781CCE45F83F9D62424D /* Frameworks */,
 				FD5B8F08FA720E35FF129ADE0B5BB800 /* Support Files */,
 			);
-			name = GoogleAppMeasurement;
 			path = GoogleAppMeasurement;
 			sourceTree = "<group>";
 		};
@@ -3176,7 +3176,6 @@
 				E367274F8D6DF55BB60FF642E3E1CCB1 /* write_batch_internal.h */,
 				D8517B2078946BADD9D1F26AE93CDFDC /* Support Files */,
 			);
-			name = "leveldb-library";
 			path = "leveldb-library";
 			sourceTree = "<group>";
 		};
@@ -3186,7 +3185,6 @@
 				661EA9C2375E55F8945536F9A018636C /* Core */,
 				0681BC9F4DF0A125C2B1569856C5C5D7 /* Support Files */,
 			);
-			name = GTMSessionFetcher;
 			path = GTMSessionFetcher;
 			sourceTree = "<group>";
 		};
@@ -3493,7 +3491,6 @@
 				05857A647357A07BBDD8131F703606F5 /* NSData+SRB64Additions.m */,
 				7C5C7A00666D851D5C1ECE5624C8EAA1 /* Support Files */,
 			);
-			name = FirebaseDatabase;
 			path = FirebaseDatabase;
 			sourceTree = "<group>";
 		};
@@ -3526,7 +3523,6 @@
 				EBE75CC09F966E9A0ADF673949EB4A53 /* encode */,
 				772C1F6570738952550EF905B2B0BF64 /* Support Files */,
 			);
-			name = nanopb;
 			path = nanopb;
 			sourceTree = "<group>";
 		};
@@ -3662,7 +3658,6 @@
 				B49879EB46ADF9A394DDA5FEA9397C2D /* NSError+FIRInstanceID.m */,
 				2E19653182AA0AC6CC8E75B20C53F1E3 /* Support Files */,
 			);
-			name = FirebaseInstanceID;
 			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
@@ -3672,7 +3667,6 @@
 				C053E76C5CE6150C13D00944D857C39E /* CoreOnly */,
 				F3D52C3DD0A61A213BE68C69CA9FF85E /* Support Files */,
 			);
-			name = Firebase;
 			path = Firebase;
 			sourceTree = "<group>";
 		};
@@ -3689,7 +3683,6 @@
 				1C356A2D7F6C14B46DF4371B9519F100 /* Support Files */,
 				4D3A8CD2ACE67FE2A0BBE938B95D28DC /* UserDefaults */,
 			);
-			name = GoogleUtilities;
 			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
@@ -3739,7 +3732,6 @@
 				DA9DA7C20A5D9EB35BF2DEF7D781C614 /* Frameworks */,
 				1133FE36875B8E269F8451C0B567E69E /* Support Files */,
 			);
-			name = FirebaseAnalytics;
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
@@ -4225,7 +4217,6 @@
 				DA3CEEA460F66492C8B3742D8955D725 /* Resources */,
 				5DC7A53A29BDFCE197535F6939FA0AAA /* Support Files */,
 			);
-			name = Stripe;
 			path = Stripe;
 			sourceTree = "<group>";
 		};
@@ -4235,7 +4226,6 @@
 				4A60E85EFA96BCCEA908F1C61E791167 /* FIRAuthInterop.h */,
 				A73852B5DEE7754471394BCC715858B8 /* Support Files */,
 			);
-			name = FirebaseAuthInterop;
 			path = FirebaseAuthInterop;
 			sourceTree = "<group>";
 		};
@@ -5149,7 +5139,24 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				da,
+				de,
+				"es-AR",
+				es,
+				fi,
+				"fr-CA",
+				fr,
+				it,
+				ja,
+				nb,
+				nl,
+				"nn-NO",
+				"pt-BR",
+				"pt-PT",
+				sv,
+				"zh-Hans",
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 2273B6DBF886D995508A40C58324250E /* Products */;
@@ -6367,8 +6374,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
