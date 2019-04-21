@@ -29,21 +29,21 @@ class CreateCardViewController: UIViewController, STPAddCardViewControllerDelega
         dismiss(animated: true)
     }
     
-    func addCardViewController(_ addCardViewController: STPAddCardViewController, didCreateToken token: STPToken, completion: @escaping STPErrorBlock) {
-        //    submitTokenToBackend(token, completion: { (error: Error?) in
-        //        if let error = error {
-        //            // Show error in add card view controller
-        //            completion(error)
-        //        }
-        //        else {
-        //            // Notify add card view controller that token creation was handled successfully
-        //            completion(nil)
-        //
-        //            // Dismiss add card view controller
-        //            dismiss(animated: true)
-        //        }
-        //    })
-    }
+//    func addCardViewController(_ addCardViewController: STPAddCardViewController, didCreateToken token: STPToken, completion: @escaping STPErrorBlock) {
+//            submitTokenToBackend(token, completion: { (error: Error?) in
+//                if let error = error {
+//                    // Show error in add card view controller
+//                    completion(error)
+//                }
+//                else {
+//                    // Notify add card view controller that token creation was handled successfully
+//                    completion(nil)
+//
+//                    // Dismiss add card view controller
+//                    dismiss(animated: true)
+//                }
+//            })
+//    }
     
     
     

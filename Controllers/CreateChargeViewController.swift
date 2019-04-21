@@ -37,15 +37,26 @@ class CreateChargeViewController: UIViewController, STPPaymentContextDelegate {
     
     func paymentContextDidChange(_ paymentContext: STPPaymentContext) {
         //self.activityIndicator.animating = paymentContext.loading
-        self.paymentButton.isEnabled = paymentContext.selectedPaymentOption != nil
+        //self.paymentButton.isEnabled = paymentContext.selectedPaymentOption != nil
         self.paymentLabel.text = "testing"//paymentContext.selectedPaymentOption?.label
         //self.paymentIcon.image = paymentContext.selectedPaymentOption?.image
     }
 
     func paymentContext(_ paymentContext: STPPaymentContext, didCreatePaymentResult paymentResult: STPPaymentResult, completion: @escaping STPErrorBlock) {}
-    func paymentContext(_ paymentContext: STPPaymentContext, didFinishWith status: STPPaymentStatus, error: Error?) {}
-
     
+    func paymentContext(_ paymentContext: STPPaymentContext,
+                        didFinishWith status: STPPaymentStatus,
+                        error: Error?) {
+        
+        switch status {
+        case .error:
+            print(error)
+        case .success:
+            print("success")
+        case .userCancellation:
+            return // Do nothing
+        }
+    }
     
     init() {
         self.paymentContext = STPPaymentContext(customerContext: customerContext)

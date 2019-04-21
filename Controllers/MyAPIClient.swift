@@ -1,52 +1,31 @@
 //
-//  MyAPIClient.swift
-//  QRCodeReader
+//  BackendAPIAdapter.swift
+//  Standard Integration (Swift)
 //
-//  Created by Haya Alhumaid on 4/9/19.
-//  Copyright © 2019 AppCoda. All rights reserved.
+//  Created by Ben Guo on 4/15/16.
+//  Copyright © 2016 Stripe. All rights reserved.
 //
 
 import Foundation
-import Alamofire
 import Stripe
+import Alamofire
 
-class MyAPIClient: NSObject, STPCustomerEphemeralKeyProvider {
-    static let shared = MyAPIClient()
+class MyAPIClient: NSObject, STPEphemeralKeyProvider {
     
-    var baseURLString: String? = "http://localhost:3000"
+    static let shared = MyAPIClient()
+    var baseURLString: String? = "https://scanner-app7.herokuapp.com/"
     var baseURL: URL {
         if let urlString = self.baseURLString, let url = URL(string: urlString) {
             return url
-        }  else {
+        } else {
             fatalError()
-        }
-    }
-    
-    func completeCharge(result: STPPaymentResult, amount: Int,
-                        completion: @escaping STPErrorBlock) {
-        let url = self.baseURL.appendingPathComponent("charge")
-        var params: [String: Any] = [
-            "source": result.source.stripeID,
-            "amount": amount,
-            "currency": "USD"
-        ]
-        
-        //params["shipping"] = STPAddress.shippingInfoForCharge(with: shippingAddress, shippingMethod: shippingMethod)
-        Alamofire.request(url, method: .post, parameters: params)
-            .validate(statusCode: 200..<300)
-            .responseString { response in
-                switch response.result {
-                case .success(let json):
-                    completion(nil)
-                case .failure(let error):
-                    completion(error)
-                }
         }
     }
     
     func createAndConfirmPaymentIntent(_ result: STPPaymentResult,
                                        amount: Int,
                                        returnURL: String,
+                                       receipt_email: String,
                                        shippingAddress: STPAddress?,
                                        shippingMethod: PKShippingMethod?,
                                        completion: @escaping STPPaymentIntentCompletionBlock) {
@@ -55,6 +34,7 @@ class MyAPIClient: NSObject, STPCustomerEphemeralKeyProvider {
             "source": result.source.stripeID,
             "amount": amount,
             "return_url": returnURL,
+            "receipt_email": receipt_email,
             "metadata": [
                 // example-ios-backend allows passing metadata through to Stripe
                 "payment_request_id": "B3E611D1-5FA1-4410-9CEC-00958A5126CB",
@@ -97,6 +77,7 @@ class MyAPIClient: NSObject, STPCustomerEphemeralKeyProvider {
         var params: [String: Any] = [
             "source": result.source.stripeID,
             "amount": amount,
+            "receipt_email": "slefcourt12@gmail.com",
             "metadata": [
                 // example-ios-backend allows passing metadata through to Stripe
                 "charge_request_id": "B3E611D1-5FA1-4410-9CEC-00958A5126CB",
@@ -114,11 +95,12 @@ class MyAPIClient: NSObject, STPCustomerEphemeralKeyProvider {
                 }
         }
     }
-
     
     func createCustomerKey(withAPIVersion apiVersion: String, completion: @escaping STPJSONResponseCompletionBlock) {
         let url = self.baseURL.appendingPathComponent("ephemeral_keys")
-        Alamofire.request(url, method: .post, parameters: ["api_version": apiVersion])
+        Alamofire.request(url, method: .post, parameters: [
+            "api_version": apiVersion,
+            ])
             .validate(statusCode: 200..<300)
             .responseJSON { responseJSON in
                 switch responseJSON.result {
@@ -129,7 +111,5 @@ class MyAPIClient: NSObject, STPCustomerEphemeralKeyProvider {
                 }
         }
     }
-    
-    
     
 }
