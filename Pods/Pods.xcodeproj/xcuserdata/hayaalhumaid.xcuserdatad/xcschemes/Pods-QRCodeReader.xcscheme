@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "89A48903DEAED6E56B9A906E2D3CCF88"
+               BlueprintIdentifier = "8B238A538219D81398896E4E0ABF4375"
                BuildableName = "Pods_QRCodeReader.framework"
                BlueprintName = "Pods-QRCodeReader"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "89A48903DEAED6E56B9A906E2D3CCF88"
+            BlueprintIdentifier = "8B238A538219D81398896E4E0ABF4375"
             BuildableName = "Pods_QRCodeReader.framework"
             BlueprintName = "Pods-QRCodeReader"
             ReferencedContainer = "container:Pods.xcodeproj">

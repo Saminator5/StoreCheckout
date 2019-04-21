@@ -16,16 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        CardPartsSamTheme().apply()
         // Override point for customization after application launch.
+//        STPPaymentConfiguration.shared().publishableKey = "pk_test_TYooMQauvdEDq54NiTphI7jx"
         
+        
+        //firebase setup
         FirebaseApp.configure()
-        
-        //testing
-//        Auth.auth().signInAnonymously { [unowned self] (result, error) in
-//            // We're signed in, let's do some testing
-//            self.testFirebase()
-//        }
-//
         //if we are already logged in, the first screen to see should be the main screen
         if Auth.auth().currentUser != nil {
             //get the main screen
@@ -35,20 +32,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window?.makeKeyAndVisible()
         }
         
+ 
         return true
     }
-    
-    
-    
-//    func testFirebase() {
-//        let testingResponse : [String : Any] = [
-//            "name" : "Shampoo",
-//            "price" : 5.0,
-//            "imageURL" : "https://alskdjflaskjdf"
-//        ]
-//
-//       FirebaseService.shared.saveBasketItem(productResponse: testingResponse)
-//    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -74,4 +60,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

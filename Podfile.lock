@@ -1,12 +1,23 @@
 PODS:
-  - Alamofire (4.8.1)
+  - CardParts (2.7.5):
+    - RxCocoa (~> 4.4)
+    - RxDataSources (~> 3.1)
+    - RxGesture (~> 2.1)
+    - RxSwift (~> 4.4)
+  - Differentiator (3.1.0)
   - Firebase (5.19.0):
     - Firebase/Core (= 5.19.0)
+  - Firebase/Auth (5.19.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.4.1)
   - Firebase/Core (5.19.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (= 5.8.0)
   - Firebase/CoreOnly (5.19.0):
     - FirebaseCore (= 5.4.0)
+  - Firebase/Database (5.19.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.1.1)
   - FirebaseAnalytics (5.8.0):
     - FirebaseCore (~> 5.4)
     - FirebaseInstanceID (~> 3.8)
@@ -64,18 +75,32 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxGesture (2.1.0):
+    - RxCocoa (~> 4.4.0)
+    - RxSwift (~> 4.4.0)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
   - Stripe (15.0.0)
 
 DEPENDENCIES:
-  - Alamofire
+  - CardParts
   - Firebase
-  - FirebaseAuth
-  - FirebaseDatabase
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
   - Stripe
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Alamofire
+    - CardParts
+    - Differentiator
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -88,10 +113,16 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxSwift
     - Stripe
 
 SPEC CHECKSUMS:
-  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  CardParts: c01bb244bd0d8eb991898f84f549f84cc5010e02
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   Firebase: c60d49e9c2630875a96207d15e2affb8364996d1
   FirebaseAnalytics: fd72a26bf8dac84cefba2f0864366f718555a5b0
   FirebaseAuth: cbb892a66baed025efc179372598941252acf853
@@ -104,8 +135,13 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxGesture: 7f6dfb45dbde06e618c24442d38493e3144f2c95
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
   Stripe: 312b22a67af9fa55c246d26148b3f3a9636a0ff2
 
-PODFILE CHECKSUM: 5faa881d8f9e3788c72fa7f2b23da22925eee8ec
+PODFILE CHECKSUM: 65a11166cdf8e09fb3534311e6cfc91fc09ca51c
 
 COCOAPODS: 1.6.1
