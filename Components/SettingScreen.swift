@@ -56,6 +56,7 @@ class SettingScreen: UIViewController {
             let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginScreen")
             window.rootViewController = vc
         }
+        User.currentUser.logOut()
     }
 }
 

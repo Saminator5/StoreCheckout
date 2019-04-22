@@ -15,8 +15,6 @@ import FirebaseAuth
 
 class LoginScreen: UIViewController {
     
-    @IBOutlet weak var gradientView: UIView!
-    
     @IBOutlet weak var textView: UILabel!
     
     @IBOutlet weak var logInButton: UIButton!
@@ -55,14 +53,6 @@ class LoginScreen: UIViewController {
         } else {
             print("conversion failed")
         }
-//        self.view.setGradientBackground(colorOne: Colors.veryDarkGrey, colorTwo: Colors.darkGrey)
-//
-//        self.gradientView.setGradientBackground(colorOne: Colors.white, colorTwo: Colors.blue)
-//
-//        self.logInButton.setGradientBackground(colorOne: Colors.orange, colorTwo: Colors.brightOrange)
-        
-        
-//        view.setCrazyBackground(colorOne: Colors.blue, colorTwo: Colors.red, colorThree: Colors.white, colorFour: Colors.green)
         
         view.setGradientBackground(colorOne: Colors.lightGrey, colorTwo: Colors.green)
         
@@ -111,6 +101,14 @@ class LoginScreen: UIViewController {
                     let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainScreen")
                     self.present(vc, animated: true)
                     print("Did segue")
+                    
+                    //save user information inside UserDefaults
+                    var userData = [String: Any]()
+                    userData["id"] = Auth.auth().currentUser!.uid
+                    userData["email"] = Auth.auth().currentUser!.email!
+                    User.currentUser.saveUserInformation(userInfo: userData)
+                    //
+                    
                 }else{
                     if let error = error{
                         let message = error.localizedDescription

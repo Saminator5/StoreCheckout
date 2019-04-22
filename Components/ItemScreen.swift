@@ -19,6 +19,8 @@ class ItemViewController: UIViewController {
     @IBOutlet weak var productName: UILabel!
     @IBOutlet weak var productManufacturer: UILabel!
     @IBOutlet weak var productPrice: UILabel!
+    @IBOutlet weak var qtyTextField: UITextField!
+    
     
     //MARK:- Properties
     var productInfo: String!
@@ -30,6 +32,7 @@ class ItemViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.setGradientBackground(colorOne: Colors.lightGrey, colorTwo: Colors.green)
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
         
         if(self.data == nil) {
             self.productName.text = "Loading..."
@@ -113,7 +116,9 @@ class ItemViewController: UIViewController {
             finalProductDictionary["url"] = self.url
         }
         
-        let basketRef = Database.database().reference(withPath: "basket").child(barcodeNumber)
+        finalProductDictionary["quantity"] = self.qtyTextField.text!
+        
+        let basketRef = Database.database().reference(withPath: "basket").child(User.currentUser.id!).child(barcodeNumber)
         basketRef.updateChildValues(finalProductDictionary) { (error, ref) in
             if error != nil {
                 print("Error while adding data on firebase!")
@@ -131,8 +136,11 @@ class ItemViewController: UIViewController {
 //MARK:- Button Actions
 extension ItemViewController {
     @IBAction func addItem(_ sender: Any) {
-        addItemToCart(name: self.productName.text!, value: 1)
-        self.saveProductOnFirebase(product: self.productDictionary)
+        if self.qtyTextField.text != "" {
+            self.saveProductOnFirebase(product: self.productDictionary)
+        } else {
+            self.presentOKAlert(title: "Error!", message: "Please enter quantity.")
+        }
     }
 }
 

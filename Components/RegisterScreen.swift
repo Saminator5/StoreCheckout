@@ -14,10 +14,12 @@ import FirebaseAuth
 
 
 class RegisterScreen: UIViewController {
+    
     @IBOutlet weak var cPassword: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var registerButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
@@ -86,9 +88,16 @@ class RegisterScreen: UIViewController {
                     //Successful login
                     // manual segue
                      let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginScreen")
-                    
                     self.present(vc, animated: true)
-                }else{
+                    
+                    //save user information inside UserDefaults
+                    var userData = [String: Any]()
+                    userData["id"] = Auth.auth().currentUser!.uid
+                    userData["email"] = Auth.auth().currentUser!.email!
+                    User.currentUser.saveUserInformation(userInfo: userData)
+                    //
+                    
+                } else {
                     if let error = error{
                         let message = error.localizedDescription
                         self.presentOKAlert(title: "SignUp Failed.", message: message)
@@ -97,6 +106,10 @@ class RegisterScreen: UIViewController {
                 
             } // end of auth
         }
+    }
+    
+    @IBAction func loginTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
 }
 

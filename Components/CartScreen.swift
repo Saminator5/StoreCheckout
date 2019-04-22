@@ -13,7 +13,6 @@ class CartScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.setGradientBackground(colorOne: Colors.lightGrey, colorTwo: Colors.green)
-        print(cart)
     }
 }
 

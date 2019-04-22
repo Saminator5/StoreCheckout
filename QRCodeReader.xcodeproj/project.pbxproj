@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1A73C0226D7DEF00538FB0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A73BF226D7DEF00538FB0 /* User.swift */; };
+		1B1A73C2226DE66700538FB0 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A73C1226DE66700538FB0 /* HistoryViewController.swift */; };
 		1E215F4A6A15737416BEC157 /* Pods_QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D101539869EC1C01B89EC2 /* Pods_QRCodeReader.framework */; };
 		BD536156226B2EEA00B0D129 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD536155226B2EEA00B0D129 /* GoogleService-Info.plist */; };
-		C313CE2E225944D0008C4062 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313CE2D225944D0008C4062 /* Cart.swift */; };
+		C313CE2E225944D0008C4062 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313CE2D225944D0008C4062 /* CartItem.swift */; };
 		C313CE3222596707008C4062 /* JsonParseDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313CE3122596707008C4062 /* JsonParseDictionary.swift */; };
 		C313CE38225C1881008C4062 /* ItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313CE37225C1881008C4062 /* ItemCard.swift */; };
 		C36E6A732205266D0093B332 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E6A722205266D0093B332 /* CustomTabBarController.swift */; };
@@ -37,9 +39,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B1A73BF226D7DEF00538FB0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1B1A73C1226DE66700538FB0 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		94D101539869EC1C01B89EC2 /* Pods_QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD536155226B2EEA00B0D129 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		C313CE2D225944D0008C4062 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Cart.swift; path = ../Components/Cart.swift; sourceTree = "<group>"; };
+		C313CE2D225944D0008C4062 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CartItem.swift; path = ../Components/CartItem.swift; sourceTree = "<group>"; };
 		C313CE3122596707008C4062 /* JsonParseDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JsonParseDictionary.swift; path = ../Helpers/JsonParseDictionary.swift; sourceTree = "<group>"; };
 		C313CE37225C1881008C4062 /* ItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemCard.swift; path = ../Cards/ItemCard.swift; sourceTree = "<group>"; };
 		C36E6A722205266D0093B332 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomTabBarController.swift; path = ../Controllers/CustomTabBarController.swift; sourceTree = "<group>"; };
@@ -141,12 +145,14 @@
 				F4F09DC81DAF6A3800026BB2 /* QRCodeViewController.swift */,
 				F4F09DCA1DAF6A4F00026BB2 /* QRScannerController.swift */,
 				C3C9A0B022134D0500F6C989 /* BarCodeScanner.swift */,
-				C313CE2D225944D0008C4062 /* Cart.swift */,
+				C313CE2D225944D0008C4062 /* CartItem.swift */,
 				C313CE37225C1881008C4062 /* ItemCard.swift */,
 				C371073C225C6C7D00BB157A /* SamCard.swift */,
 				C3710738225C663E00BB157A /* TCViewController.swift */,
 				C371073A225C669A00BB157A /* ThemeViewController.swift */,
 				C3EB69BA225C8BEA00A112F7 /* GetRGB.swift */,
+				1B1A73BF226D7DEF00538FB0 /* User.swift */,
+				1B1A73C1226DE66700538FB0 /* HistoryViewController.swift */,
 			);
 			path = QRCodeReader;
 			sourceTree = "<group>";
@@ -313,13 +319,15 @@
 				C37274E8222798D600A21A3B /* ItemScreen.swift in Sources */,
 				C3EB69BB225C8BEA00A112F7 /* GetRGB.swift in Sources */,
 				C3A7CFD02203ECC200B58485 /* TextFieldExtension.swift in Sources */,
+				1B1A73C2226DE66700538FB0 /* HistoryViewController.swift in Sources */,
 				C36E6A772205330B0093B332 /* CartScreen.swift in Sources */,
 				F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */,
 				F4F09DCB1DAF6A4F00026BB2 /* QRScannerController.swift in Sources */,
 				C3710739225C663E00BB157A /* TCViewController.swift in Sources */,
 				C313CE3222596707008C4062 /* JsonParseDictionary.swift in Sources */,
 				C313CE38225C1881008C4062 /* ItemCard.swift in Sources */,
-				C313CE2E225944D0008C4062 /* Cart.swift in Sources */,
+				C313CE2E225944D0008C4062 /* CartItem.swift in Sources */,
+				1B1A73C0226D7DEF00538FB0 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
