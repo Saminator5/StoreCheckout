@@ -108,12 +108,13 @@ open class CardsViewController : UIViewController, UICollectionViewDataSource, U
     }
 
 	public func loadCards(cards:[CardController]) {
-		setCardControllers(cards: cards)
+        setCardControllers(cards: cards)
 		
 		registerCells(cards: cards)
 		
 		collectionView.reloadData()
 		collectionView.collectionViewLayout.invalidateLayout()
+
 	}
 
 	private func setCardControllers(cards: [CardController]) {

@@ -17,7 +17,7 @@ import FirebaseAuth
 class SettingScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.setGradientBackground(colorOne: Colors.lightGrey, colorTwo: Colors.green)
+        view.setGradientBackground()
     }
     
     @IBOutlet weak var emailReset: UITextField!
@@ -56,6 +56,7 @@ class SettingScreen: UIViewController {
             let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginScreen")
             window.rootViewController = vc
         }
+        User.currentUser.logOut()
     }
 }
 

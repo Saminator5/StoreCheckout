@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (4.8.2)
   - CardParts (2.7.5):
     - RxCocoa (~> 4.4)
     - RxDataSources (~> 3.1)
@@ -90,6 +91,7 @@ PODS:
   - Stripe (15.0.0)
 
 DEPENDENCIES:
+  - Alamofire
   - CardParts
   - Firebase
   - Firebase/Auth
@@ -99,6 +101,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - CardParts
     - Differentiator
     - Firebase
@@ -121,6 +124,7 @@ SPEC REPOS:
     - Stripe
 
 SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   CardParts: c01bb244bd0d8eb991898f84f549f84cc5010e02
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   Firebase: c60d49e9c2630875a96207d15e2affb8364996d1
@@ -142,6 +146,6 @@ SPEC CHECKSUMS:
   RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
   Stripe: 312b22a67af9fa55c246d26148b3f3a9636a0ff2
 
-PODFILE CHECKSUM: 65a11166cdf8e09fb3534311e6cfc91fc09ca51c
+PODFILE CHECKSUM: 9e4c966f07e6000caa29bad5acb7ac08a7ce2e93
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.0.beta.3

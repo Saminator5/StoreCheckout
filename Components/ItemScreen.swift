@@ -19,6 +19,8 @@ class ItemViewController: UIViewController {
     @IBOutlet weak var productName: UILabel!
     @IBOutlet weak var productManufacturer: UILabel!
     @IBOutlet weak var productPrice: UILabel!
+    @IBOutlet weak var qtyTextField: UITextField!
+    
     
     //MARK:- Properties
     var productInfo: String!
@@ -29,7 +31,8 @@ class ItemViewController: UIViewController {
     //MARK:- ViewController LifeCycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.setGradientBackground(colorOne: Colors.lightGrey, colorTwo: Colors.green)
+        view.setGradientBackground()
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
         
         if(self.data == nil) {
             self.productName.text = "Loading..."
@@ -37,34 +40,42 @@ class ItemViewController: UIViewController {
             self.productName.text = "Got it!"
             self.productInfo = String(data: self.data!, encoding: .utf8)!
             productDictionary = JSONParseDictionary(string: self.productInfo)
-            for item in productDictionary["products"] as! [AnyObject] {
-                print(item)
-                self.productName.text = item["product_name"] as? String
-                //self.productCategory.text = item["category"] as! String
-                self.productManufacturer.text = item["manufacturer"] as? String
-                
-                
-                let stores: Array<Dictionary<String, String>> = item["stores"] as! Array<Dictionary<String, String>>
-                if(stores.count > 0) {
-                    let store = stores[0]
-                    let price = store["store_price"]!
-                    let name = store["store_name"]!
-                    self.productPrice.text = "Available for $\(price) at \(name)"
+            if let products = productDictionary["products"] as? [AnyObject] {
+                for item in products {
+                    print(item)
+                    self.productName.text = item["product_name"] as? String
+                    //self.productCategory.text = item["category"] as! String
+                    self.productManufacturer.text = item["manufacturer"] as? String
+                    
+                    
+                    let stores: Array<Dictionary<String, String>> = item["stores"] as! Array<Dictionary<String, String>>
+                    if(stores.count > 0) {
+                        let store = stores[0]
+                        let price = store["store_price"]!
+                        let name = store["store_name"]!
+                        self.productPrice.text = "Available for $\(price) at \(name)"
+                    }
+                    
+                    
+                    
+                    let images:Array<String> = item["images"] as! Array<String>
+                    if(images.count > 0) {
+                        self.url = images[0]
+                    }  else {
+                        self.url = "https://cdn.browshot.com/static/images/not-found.png"
+                    }
                 }
                 
+                let url = URL(string: self.url)
+                let data = try? Data(contentsOf: url!) //make sure your image in this url does exist, otherwise unwrap in a if let check / try-catch
                 
+                // if fails, then not valid UPC code.
+                // add error message
                 
-                let images:Array<String> = item["images"] as! Array<String>
-                if(images.count > 0) {
-                    self.url = images[0]
-                }  else {
-                    self.url = "https://cdn.browshot.com/static/images/not-found.png"
-                }
+                imageView.image = UIImage(data: data!)
+                
             }
-            
-            let url = URL(string: self.url)
-            let data = try? Data(contentsOf: url!) //make sure your image in this url does exist, otherwise unwrap in a if let check / try-catch
-            imageView.image = UIImage(data: data!)
+
         }
     }
     
@@ -108,17 +119,20 @@ class ItemViewController: UIViewController {
                 let store = stores[0]
                 let price = store["store_price"]!
                 let name = store["store_name"]!
-                finalProductDictionary["price"] = "Available for $\(price) at \(name)"
+                finalProductDictionary["price"] = "\(price)"
+                
             }
             finalProductDictionary["url"] = self.url
         }
         
-        let basketRef = Database.database().reference(withPath: "basket").child(barcodeNumber)
+        finalProductDictionary["quantity"] = self.qtyTextField.text!
+        
+        let basketRef = Database.database().reference(withPath: "basket").child(User.currentUser.id!).child(barcodeNumber)
         basketRef.updateChildValues(finalProductDictionary) { (error, ref) in
             if error != nil {
                 print("Error while adding data on firebase!")
             } else {
-                //TODO: Save finalProductDictionary to UserDefaults
+                //Save finalProductDictionary to UserDefaults
                 print("Product added!")
                 self.saveProductIntoCart(product: finalProductDictionary)
                 self.navigationController?.popToRootViewController(animated: true)
@@ -131,8 +145,11 @@ class ItemViewController: UIViewController {
 //MARK:- Button Actions
 extension ItemViewController {
     @IBAction func addItem(_ sender: Any) {
-        addItemToCart(name: self.productName.text!, value: 1)
-        self.saveProductOnFirebase(product: self.productDictionary)
+        if self.qtyTextField.text != "" {
+            self.saveProductOnFirebase(product: self.productDictionary)
+        } else {
+            self.presentOKAlert(title: "Error!", message: "Please enter quantity.")
+        }
     }
 }
 

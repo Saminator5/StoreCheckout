@@ -11,7 +11,7 @@ import UIKit
 
 extension UIView {
     
-    func setGradientBackground(colorOne: UIColor, colorTwo: UIColor) {
+    func setGradientBackground() {
         
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = bounds
